@@ -1,0 +1,19 @@
+Camoto: Classic-game Modding Tools
+Copyright 2010-2015 Adam Nielsen <malvineous@shikadi.net>
+http://www.shikadi.net/camoto/
+
+Camoto is a collection of utilities for editing (modding) "classic games",
+those from the early to mid 1990s.
+
+This is a Visual Studio build environment for Camoto.  It will build all the
+command-line tools, GUI and test code.  It has only been tested in Visual
+Studio 2013 Community Edition.
+
+Step-by-step instructions for setting up and building the full Camoto suite
+are available at http://www.shikadi.net/camoto/help/build/win32
+
+No source code is included here - it must be downloaded separately (typically
+from the git repositories for each Camoto component.)
+
+Dependencies (e.g. Boost) should download automatically on the first build,
+via NuGet packages.  wxWidgets still needs to be downloaded manually.
