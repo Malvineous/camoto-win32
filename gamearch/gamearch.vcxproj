@@ -70,7 +70,7 @@
     <Import Project="..\camoto.props" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros">
-    <NuGetPackageImportStamp>1cc08fae</NuGetPackageImportStamp>
+    <NuGetPackageImportStamp>e1805e6e</NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
@@ -166,6 +166,8 @@
   <ImportGroup Label="ExtensionTargets">
     <Import Project="..\packages\boost.1.57.0.0\build\native\boost.targets" Condition="Exists('..\packages\boost.1.57.0.0\build\native\boost.targets')" />
     <Import Project="..\packages\boost_program_options-vc120.1.57.0.0\build\native\boost_program_options-vc120.targets" Condition="Exists('..\packages\boost_program_options-vc120.1.57.0.0\build\native\boost_program_options-vc120.targets')" />
+    <Import Project="..\packages\boost_filesystem-vc120.1.57.0.0\build\native\boost_filesystem-vc120.targets" Condition="Exists('..\packages\boost_filesystem-vc120.1.57.0.0\build\native\boost_filesystem-vc120.targets')" />
+    <Import Project="..\packages\boost_system-vc120.1.57.0.0\build\native\boost_system-vc120.targets" Condition="Exists('..\packages\boost_system-vc120.1.57.0.0\build\native\boost_system-vc120.targets')" />
   </ImportGroup>
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
@@ -173,5 +175,7 @@
     </PropertyGroup>
     <Error Condition="!Exists('..\packages\boost.1.57.0.0\build\native\boost.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\boost.1.57.0.0\build\native\boost.targets'))" />
     <Error Condition="!Exists('..\packages\boost_program_options-vc120.1.57.0.0\build\native\boost_program_options-vc120.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\boost_program_options-vc120.1.57.0.0\build\native\boost_program_options-vc120.targets'))" />
+    <Error Condition="!Exists('..\packages\boost_filesystem-vc120.1.57.0.0\build\native\boost_filesystem-vc120.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\boost_filesystem-vc120.1.57.0.0\build\native\boost_filesystem-vc120.targets'))" />
+    <Error Condition="!Exists('..\packages\boost_system-vc120.1.57.0.0\build\native\boost_system-vc120.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\boost_system-vc120.1.57.0.0\build\native\boost_system-vc120.targets'))" />
   </Target>
 </Project>

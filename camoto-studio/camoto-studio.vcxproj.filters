@@ -93,9 +93,6 @@
     <ClCompile Include="..\..\camoto-studio\src\project.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\camoto-studio\src\RtMidi.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\camoto-studio\src\studio.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -180,12 +177,6 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\..\camoto-studio\src\project.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\camoto-studio\src\RtError.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\camoto-studio\src\RtMidi.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\..\camoto-studio\src\studio.hpp">
