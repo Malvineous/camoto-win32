@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\libgamemusic\utils\dro2txt.cpp">
+    <ClCompile Include="..\libgamemusic\git\utils\dro2txt.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

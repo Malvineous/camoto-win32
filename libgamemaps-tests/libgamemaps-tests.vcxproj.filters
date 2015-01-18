@@ -15,57 +15,57 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\libgamemaps\tests\test-map2d.cpp">
+    <ClCompile Include="..\libgamemaps\git\tests\test-map2d.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamemaps\tests\test-map-bash.cpp">
+    <ClCompile Include="..\libgamemaps\git\tests\test-map-bash.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamemaps\tests\test-map-ccaves.cpp">
+    <ClCompile Include="..\libgamemaps\git\tests\test-map-ccaves.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamemaps\tests\test-map-ccomic.cpp">
+    <ClCompile Include="..\libgamemaps\git\tests\test-map-ccomic.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamemaps\tests\test-map-cosmo.cpp">
+    <ClCompile Include="..\libgamemaps\git\tests\test-map-cosmo.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamemaps\tests\test-map-ddave.cpp">
+    <ClCompile Include="..\libgamemaps\git\tests\test-map-ddave.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamemaps\tests\test-map-got.cpp">
+    <ClCompile Include="..\libgamemaps\git\tests\test-map-got.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamemaps\tests\test-map-harry.cpp">
+    <ClCompile Include="..\libgamemaps\git\tests\test-map-harry.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamemaps\tests\test-map-nukem2.cpp">
+    <ClCompile Include="..\libgamemaps\git\tests\test-map-nukem2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamemaps\tests\test-map-sagent.cpp">
+    <ClCompile Include="..\libgamemaps\git\tests\test-map-sagent.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamemaps\tests\test-map-vinyl.cpp">
+    <ClCompile Include="..\libgamemaps\git\tests\test-map-vinyl.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamemaps\tests\test-map-wacky.cpp">
+    <ClCompile Include="..\libgamemaps\git\tests\test-map-wacky.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamemaps\tests\test-map-wordresc.cpp">
+    <ClCompile Include="..\libgamemaps\git\tests\test-map-wordresc.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamemaps\tests\test-map-xargon.cpp">
+    <ClCompile Include="..\libgamemaps\git\tests\test-map-xargon.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamemaps\tests\tests.cpp">
+    <ClCompile Include="..\libgamemaps\git\tests\tests.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\libgamemaps\tests\test-map2d.hpp">
+    <ClInclude Include="..\libgamemaps\git\tests\test-map2d.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamemaps\tests\tests.hpp">
+    <ClInclude Include="..\libgamemaps\git\tests\tests.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

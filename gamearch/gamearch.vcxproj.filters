@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\libgamearchive\examples\gamearch.cpp">
+    <ClCompile Include="..\libgamearchive\git\examples\gamearch.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

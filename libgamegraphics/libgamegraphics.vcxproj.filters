@@ -15,375 +15,375 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\libgamegraphics\src\baseimage.cpp">
+    <ClCompile Include="git\src\baseimage.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamegraphics\src\basetileset.cpp">
+    <ClCompile Include="git\src\basetileset.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamegraphics\src\filter-ccomic.cpp">
+    <ClCompile Include="git\src\filter-ccomic.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamegraphics\src\filter-ccomic2.cpp">
+    <ClCompile Include="git\src\filter-ccomic2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamegraphics\src\filter-pad.cpp">
+    <ClCompile Include="git\src\filter-pad.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamegraphics\src\img-bash-sprite.cpp">
+    <ClCompile Include="git\src\img-bash-sprite.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamegraphics\src\img-ccomic.cpp">
+    <ClCompile Include="git\src\img-ccomic.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamegraphics\src\img-cga.cpp">
+    <ClCompile Include="git\src\img-cga.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamegraphics\src\img-ddave.cpp">
+    <ClCompile Include="git\src\img-ddave.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamegraphics\src\img-ega-byteplanar.cpp">
+    <ClCompile Include="git\src\img-ega-byteplanar.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamegraphics\src\img-ega-byteplanar-tiled.cpp">
+    <ClCompile Include="git\src\img-ega-byteplanar-tiled.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamegraphics\src\img-ega-planar.cpp">
+    <ClCompile Include="git\src\img-ega-planar.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamegraphics\src\img-ega-rowplanar.cpp">
+    <ClCompile Include="git\src\img-ega-rowplanar.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamegraphics\src\img-mono.cpp">
+    <ClCompile Include="git\src\img-mono.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamegraphics\src\img-nukem2.cpp">
+    <ClCompile Include="git\src\img-nukem2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamegraphics\src\img-palette.cpp">
+    <ClCompile Include="git\src\img-palette.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamegraphics\src\img-pcx.cpp">
+    <ClCompile Include="git\src\img-pcx.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamegraphics\src\img-pic-raptor.cpp">
+    <ClCompile Include="git\src\img-pic-raptor.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamegraphics\src\img-scr-vinyl.cpp">
+    <ClCompile Include="git\src\img-scr-vinyl.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamegraphics\src\img-tv-fog.cpp">
+    <ClCompile Include="git\src\img-tv-fog.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamegraphics\src\img-vga.cpp">
+    <ClCompile Include="git\src\img-vga.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamegraphics\src\img-vga-planar.cpp">
+    <ClCompile Include="git\src\img-vga-planar.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamegraphics\src\img-vga-raw.cpp">
+    <ClCompile Include="git\src\img-vga-raw.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamegraphics\src\img-vga-raw-planar.cpp">
+    <ClCompile Include="git\src\img-vga-raw-planar.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamegraphics\src\img-zone66_tile.cpp">
+    <ClCompile Include="git\src\img-zone66_tile.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamegraphics\src\main.cpp">
+    <ClCompile Include="git\src\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamegraphics\src\palettetable.cpp">
+    <ClCompile Include="git\src\palettetable.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamegraphics\src\pal-gmf-harry.cpp">
+    <ClCompile Include="git\src\pal-gmf-harry.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamegraphics\src\pal-vga-raw.cpp">
+    <ClCompile Include="git\src\pal-vga-raw.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamegraphics\src\subimage.cpp">
+    <ClCompile Include="git\src\subimage.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamegraphics\src\tileset-fat.cpp">
+    <ClCompile Include="git\src\tileset-fat.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamegraphics\src\tilesetFromImages.cpp">
+    <ClCompile Include="git\src\tilesetFromImages.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamegraphics\src\tilesetFromList.cpp">
+    <ClCompile Include="git\src\tilesetFromList.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamegraphics\src\tls-actrinfo.cpp">
+    <ClCompile Include="git\src\tls-actrinfo.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamegraphics\src\tls-bash.cpp">
+    <ClCompile Include="git\src\tls-bash.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamegraphics\src\tls-bash-sprite.cpp">
+    <ClCompile Include="git\src\tls-bash-sprite.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamegraphics\src\tls-catacomb.cpp">
+    <ClCompile Include="git\src\tls-catacomb.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamegraphics\src\tls-ccaves-main.cpp">
+    <ClCompile Include="git\src\tls-ccaves-main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamegraphics\src\tls-ccaves-sub.cpp">
+    <ClCompile Include="git\src\tls-ccaves-sub.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamegraphics\src\tls-ccomic.cpp">
+    <ClCompile Include="git\src\tls-ccomic.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamegraphics\src\tls-ccomic2.cpp">
+    <ClCompile Include="git\src\tls-ccomic2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamegraphics\src\tls-cosmo.cpp">
+    <ClCompile Include="git\src\tls-cosmo.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamegraphics\src\tls-czone.cpp">
+    <ClCompile Include="git\src\tls-czone.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamegraphics\src\tls-ddave.cpp">
+    <ClCompile Include="git\src\tls-ddave.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamegraphics\src\tls-ega-apogee.cpp">
+    <ClCompile Include="git\src\tls-ega-apogee.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamegraphics\src\tls-got.cpp">
+    <ClCompile Include="git\src\tls-got.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamegraphics\src\tls-harry-chr.cpp">
+    <ClCompile Include="git\src\tls-harry-chr.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamegraphics\src\tls-harry-hsb.cpp">
+    <ClCompile Include="git\src\tls-harry-hsb.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamegraphics\src\tls-harry-ico.cpp">
+    <ClCompile Include="git\src\tls-harry-ico.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamegraphics\src\tls-hocus.cpp">
+    <ClCompile Include="git\src\tls-hocus.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamegraphics\src\tls-img.cpp">
+    <ClCompile Include="git\src\tls-img.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamegraphics\src\tls-jill.cpp">
+    <ClCompile Include="git\src\tls-jill.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamegraphics\src\tls-sagent.cpp">
+    <ClCompile Include="git\src\tls-sagent.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamegraphics\src\tls-stryker.cpp">
+    <ClCompile Include="git\src\tls-stryker.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamegraphics\src\tls-vinyl.cpp">
+    <ClCompile Include="git\src\tls-vinyl.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamegraphics\src\tls-wacky.cpp">
+    <ClCompile Include="git\src\tls-wacky.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamegraphics\src\tls-wordresc.cpp">
+    <ClCompile Include="git\src\tls-wordresc.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamegraphics\src\tls-zone66.cpp">
+    <ClCompile Include="git\src\tls-zone66.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamegraphics\src\tls-zone66-map.cpp">
+    <ClCompile Include="git\src\tls-zone66-map.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\libgamegraphics\src\baseimage.hpp">
+    <ClInclude Include="git\src\baseimage.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamegraphics\src\basetileset.hpp">
+    <ClInclude Include="git\src\basetileset.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamegraphics\src\filter-ccomic.hpp">
+    <ClInclude Include="git\src\filter-ccomic.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamegraphics\src\filter-ccomic2.hpp">
+    <ClInclude Include="git\src\filter-ccomic2.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamegraphics\src\filter-pad.hpp">
+    <ClInclude Include="git\src\filter-pad.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamegraphics\src\img-bash-sprite.hpp">
+    <ClInclude Include="git\src\img-bash-sprite.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamegraphics\src\img-ccomic.hpp">
+    <ClInclude Include="git\src\img-ccomic.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamegraphics\src\img-cga.hpp">
+    <ClInclude Include="git\src\img-cga.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamegraphics\src\img-ddave.hpp">
+    <ClInclude Include="git\src\img-ddave.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamegraphics\src\img-ega-byteplanar.hpp">
+    <ClInclude Include="git\src\img-ega-byteplanar.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamegraphics\src\img-ega-byteplanar-tiled.hpp">
+    <ClInclude Include="git\src\img-ega-byteplanar-tiled.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamegraphics\src\img-ega-common.hpp">
+    <ClInclude Include="git\src\img-ega-common.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamegraphics\src\img-ega-planar.hpp">
+    <ClInclude Include="git\src\img-ega-planar.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamegraphics\src\img-ega-rowplanar.hpp">
+    <ClInclude Include="git\src\img-ega-rowplanar.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamegraphics\src\img-mono.hpp">
+    <ClInclude Include="git\src\img-mono.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamegraphics\src\img-nukem2.hpp">
+    <ClInclude Include="git\src\img-nukem2.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamegraphics\src\img-palette.hpp">
+    <ClInclude Include="git\src\img-palette.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamegraphics\src\img-pcx.hpp">
+    <ClInclude Include="git\src\img-pcx.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamegraphics\src\img-pic-raptor.hpp">
+    <ClInclude Include="git\src\img-pic-raptor.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamegraphics\src\img-scr-vinyl.hpp">
+    <ClInclude Include="git\src\img-scr-vinyl.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamegraphics\src\img-tv-fog.hpp">
+    <ClInclude Include="git\src\img-tv-fog.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamegraphics\src\img-vga.hpp">
+    <ClInclude Include="git\src\img-vga.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamegraphics\src\img-vga-planar.hpp">
+    <ClInclude Include="git\src\img-vga-planar.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamegraphics\src\img-vga-raw.hpp">
+    <ClInclude Include="git\src\img-vga-raw.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamegraphics\src\img-vga-raw-planar.hpp">
+    <ClInclude Include="git\src\img-vga-raw-planar.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamegraphics\src\img-zone66_tile.hpp">
+    <ClInclude Include="git\src\img-zone66_tile.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamegraphics\src\pal-gmf-harry.hpp">
+    <ClInclude Include="git\src\pal-gmf-harry.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamegraphics\src\pal-vga-raw.hpp">
+    <ClInclude Include="git\src\pal-vga-raw.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamegraphics\src\subimage.hpp">
+    <ClInclude Include="git\src\subimage.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamegraphics\src\tileset-fat.hpp">
+    <ClInclude Include="git\src\tileset-fat.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamegraphics\src\tilesetFromList.hpp">
+    <ClInclude Include="git\src\tilesetFromList.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamegraphics\src\tls-actrinfo.hpp">
+    <ClInclude Include="git\src\tls-actrinfo.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamegraphics\src\tls-bash.hpp">
+    <ClInclude Include="git\src\tls-bash.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamegraphics\src\tls-bash-sprite.hpp">
+    <ClInclude Include="git\src\tls-bash-sprite.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamegraphics\src\tls-catacomb.hpp">
+    <ClInclude Include="git\src\tls-catacomb.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamegraphics\src\tls-ccaves-main.hpp">
+    <ClInclude Include="git\src\tls-ccaves-main.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamegraphics\src\tls-ccaves-sub.hpp">
+    <ClInclude Include="git\src\tls-ccaves-sub.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamegraphics\src\tls-ccomic.hpp">
+    <ClInclude Include="git\src\tls-ccomic.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamegraphics\src\tls-ccomic2.hpp">
+    <ClInclude Include="git\src\tls-ccomic2.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamegraphics\src\tls-cosmo.hpp">
+    <ClInclude Include="git\src\tls-cosmo.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamegraphics\src\tls-czone.hpp">
+    <ClInclude Include="git\src\tls-czone.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamegraphics\src\tls-ddave.hpp">
+    <ClInclude Include="git\src\tls-ddave.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamegraphics\src\tls-ega-apogee.hpp">
+    <ClInclude Include="git\src\tls-ega-apogee.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamegraphics\src\tls-got.hpp">
+    <ClInclude Include="git\src\tls-got.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamegraphics\src\tls-harry-chr.hpp">
+    <ClInclude Include="git\src\tls-harry-chr.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamegraphics\src\tls-harry-hsb.hpp">
+    <ClInclude Include="git\src\tls-harry-hsb.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamegraphics\src\tls-harry-ico.hpp">
+    <ClInclude Include="git\src\tls-harry-ico.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamegraphics\src\tls-hocus.hpp">
+    <ClInclude Include="git\src\tls-hocus.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamegraphics\src\tls-img.hpp">
+    <ClInclude Include="git\src\tls-img.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamegraphics\src\tls-jill.hpp">
+    <ClInclude Include="git\src\tls-jill.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamegraphics\src\tls-sagent.hpp">
+    <ClInclude Include="git\src\tls-sagent.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamegraphics\src\tls-stryker.hpp">
+    <ClInclude Include="git\src\tls-stryker.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamegraphics\src\tls-vinyl.hpp">
+    <ClInclude Include="git\src\tls-vinyl.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamegraphics\src\tls-wacky.hpp">
+    <ClInclude Include="git\src\tls-wacky.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamegraphics\src\tls-wordresc.hpp">
+    <ClInclude Include="git\src\tls-wordresc.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamegraphics\src\tls-zone66.hpp">
+    <ClInclude Include="git\src\tls-zone66.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamegraphics\src\tls-zone66-map.hpp">
+    <ClInclude Include="git\src\tls-zone66-map.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamegraphics\include\camoto\gamegraphics.hpp">
+    <ClInclude Include="git\include\camoto\gamegraphics.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamegraphics\include\camoto\gamegraphics\image.hpp">
+    <ClInclude Include="git\include\camoto\gamegraphics\image.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamegraphics\include\camoto\gamegraphics\imagetype.hpp">
+    <ClInclude Include="git\include\camoto\gamegraphics\imagetype.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamegraphics\include\camoto\gamegraphics\manager.hpp">
+    <ClInclude Include="git\include\camoto\gamegraphics\manager.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamegraphics\include\camoto\gamegraphics\palettetable.hpp">
+    <ClInclude Include="git\include\camoto\gamegraphics\palettetable.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamegraphics\include\camoto\gamegraphics\tileset.hpp">
+    <ClInclude Include="git\include\camoto\gamegraphics\tileset.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamegraphics\include\camoto\gamegraphics\tilesettype.hpp">
+    <ClInclude Include="git\include\camoto\gamegraphics\tilesettype.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -149,38 +149,38 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\libgamegraphics\tests\test-filter-ccomic.cpp" />
-    <ClCompile Include="..\..\libgamegraphics\tests\test-filter-ccomic2.cpp" />
-    <ClCompile Include="..\..\libgamegraphics\tests\test-filter-pad.cpp" />
-    <ClCompile Include="..\..\libgamegraphics\tests\test-filter.cpp" />
-    <ClCompile Include="..\..\libgamegraphics\tests\test-img-bash-sprite.cpp" />
-    <ClCompile Include="..\..\libgamegraphics\tests\test-img-ccomic.cpp" />
-    <ClCompile Include="..\..\libgamegraphics\tests\test-img-ega-byteplanar.cpp" />
-    <ClCompile Include="..\..\libgamegraphics\tests\test-img-ega-planar.cpp" />
-    <ClCompile Include="..\..\libgamegraphics\tests\test-img-ega-rowplanar.cpp" />
-    <ClCompile Include="..\..\libgamegraphics\tests\test-img-pcx-1b4p.cpp" />
-    <ClCompile Include="..\..\libgamegraphics\tests\test-img-pcx-8b1p.cpp" />
-    <ClCompile Include="..\..\libgamegraphics\tests\test-img-pic-raptor.cpp" />
-    <ClCompile Include="..\..\libgamegraphics\tests\test-img-zone66_tile.cpp" />
-    <ClCompile Include="..\..\libgamegraphics\tests\test-pal-defaults.cpp" />
-    <ClCompile Include="..\..\libgamegraphics\tests\test-pal-vga-raw.cpp" />
-    <ClCompile Include="..\..\libgamegraphics\tests\test-subimage.cpp" />
-    <ClCompile Include="..\..\libgamegraphics\tests\test-tls-bash-sprite.cpp" />
-    <ClCompile Include="..\..\libgamegraphics\tests\test-tls-ccaves-sub.cpp" />
-    <ClCompile Include="..\..\libgamegraphics\tests\test-tls-ddave.cpp" />
-    <ClCompile Include="..\..\libgamegraphics\tests\test-tls-harry-hsb.cpp" />
-    <ClCompile Include="..\..\libgamegraphics\tests\test-tls-harry-ico.cpp" />
-    <ClCompile Include="..\..\libgamegraphics\tests\test-tls-vinyl.cpp" />
-    <ClCompile Include="..\..\libgamegraphics\tests\test-tls-zone66.cpp" />
-    <ClCompile Include="..\..\libgamegraphics\tests\tests.cpp" />
+    <ClCompile Include="..\libgamegraphics\git\tests\test-filter-ccomic.cpp" />
+    <ClCompile Include="..\libgamegraphics\git\tests\test-filter-ccomic2.cpp" />
+    <ClCompile Include="..\libgamegraphics\git\tests\test-filter-pad.cpp" />
+    <ClCompile Include="..\libgamegraphics\git\tests\test-filter.cpp" />
+    <ClCompile Include="..\libgamegraphics\git\tests\test-img-bash-sprite.cpp" />
+    <ClCompile Include="..\libgamegraphics\git\tests\test-img-ccomic.cpp" />
+    <ClCompile Include="..\libgamegraphics\git\tests\test-img-ega-byteplanar.cpp" />
+    <ClCompile Include="..\libgamegraphics\git\tests\test-img-ega-planar.cpp" />
+    <ClCompile Include="..\libgamegraphics\git\tests\test-img-ega-rowplanar.cpp" />
+    <ClCompile Include="..\libgamegraphics\git\tests\test-img-pcx-1b4p.cpp" />
+    <ClCompile Include="..\libgamegraphics\git\tests\test-img-pcx-8b1p.cpp" />
+    <ClCompile Include="..\libgamegraphics\git\tests\test-img-pic-raptor.cpp" />
+    <ClCompile Include="..\libgamegraphics\git\tests\test-img-zone66_tile.cpp" />
+    <ClCompile Include="..\libgamegraphics\git\tests\test-pal-defaults.cpp" />
+    <ClCompile Include="..\libgamegraphics\git\tests\test-pal-vga-raw.cpp" />
+    <ClCompile Include="..\libgamegraphics\git\tests\test-subimage.cpp" />
+    <ClCompile Include="..\libgamegraphics\git\tests\test-tls-bash-sprite.cpp" />
+    <ClCompile Include="..\libgamegraphics\git\tests\test-tls-ccaves-sub.cpp" />
+    <ClCompile Include="..\libgamegraphics\git\tests\test-tls-ddave.cpp" />
+    <ClCompile Include="..\libgamegraphics\git\tests\test-tls-harry-hsb.cpp" />
+    <ClCompile Include="..\libgamegraphics\git\tests\test-tls-harry-ico.cpp" />
+    <ClCompile Include="..\libgamegraphics\git\tests\test-tls-vinyl.cpp" />
+    <ClCompile Include="..\libgamegraphics\git\tests\test-tls-zone66.cpp" />
+    <ClCompile Include="..\libgamegraphics\git\tests\tests.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\libgamegraphics\tests\test-filter.hpp" />
-    <ClInclude Include="..\..\libgamegraphics\tests\test-img-defines.hpp" />
-    <ClInclude Include="..\..\libgamegraphics\tests\test-img.hpp" />
-    <ClInclude Include="..\..\libgamegraphics\tests\test-tileset.hpp" />
-    <ClInclude Include="..\..\libgamegraphics\tests\test-tileset_new.hpp" />
-    <ClInclude Include="..\..\libgamegraphics\tests\tests.hpp" />
+    <ClInclude Include="..\libgamegraphics\git\tests\test-filter.hpp" />
+    <ClInclude Include="..\libgamegraphics\git\tests\test-img-defines.hpp" />
+    <ClInclude Include="..\libgamegraphics\git\tests\test-img.hpp" />
+    <ClInclude Include="..\libgamegraphics\git\tests\test-tileset.hpp" />
+    <ClInclude Include="..\libgamegraphics\git\tests\test-tileset_new.hpp" />
+    <ClInclude Include="..\libgamegraphics\git\tests\tests.hpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\libgamecommon\libgamecommon.vcxproj">

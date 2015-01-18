@@ -149,21 +149,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\libgamecommon\tests\test-bitstream.cpp" />
-    <ClCompile Include="..\..\libgamecommon\tests\test-byteorder.cpp" />
-    <ClCompile Include="..\..\libgamecommon\tests\test-iff.cpp" />
-    <ClCompile Include="..\..\libgamecommon\tests\test-iostream_helpers.cpp" />
-    <ClCompile Include="..\..\libgamecommon\tests\test-lzw.cpp" />
-    <ClCompile Include="..\..\libgamecommon\tests\test-stream.cpp" />
-    <ClCompile Include="..\..\libgamecommon\tests\test-stream_file.cpp" />
-    <ClCompile Include="..\..\libgamecommon\tests\test-stream_filtered.cpp" />
-    <ClCompile Include="..\..\libgamecommon\tests\test-stream_seg.cpp" />
-    <ClCompile Include="..\..\libgamecommon\tests\test-stream_string.cpp" />
-    <ClCompile Include="..\..\libgamecommon\tests\test-stream_sub.cpp" />
-    <ClCompile Include="..\..\libgamecommon\tests\tests.cpp" />
+    <ClCompile Include="..\libgamecommon\git\tests\test-bitstream.cpp" />
+    <ClCompile Include="..\libgamecommon\git\tests\test-byteorder.cpp" />
+    <ClCompile Include="..\libgamecommon\git\tests\test-iff.cpp" />
+    <ClCompile Include="..\libgamecommon\git\tests\test-iostream_helpers.cpp" />
+    <ClCompile Include="..\libgamecommon\git\tests\test-lzw.cpp" />
+    <ClCompile Include="..\libgamecommon\git\tests\test-stream.cpp" />
+    <ClCompile Include="..\libgamecommon\git\tests\test-stream_file.cpp" />
+    <ClCompile Include="..\libgamecommon\git\tests\test-stream_filtered.cpp" />
+    <ClCompile Include="..\libgamecommon\git\tests\test-stream_seg.cpp" />
+    <ClCompile Include="..\libgamecommon\git\tests\test-stream_string.cpp" />
+    <ClCompile Include="..\libgamecommon\git\tests\test-stream_sub.cpp" />
+    <ClCompile Include="..\libgamecommon\git\tests\tests.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\libgamecommon\tests\tests.hpp" />
+    <ClInclude Include="..\libgamecommon\git\tests\tests.hpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\libgamecommon\libgamecommon.vcxproj">

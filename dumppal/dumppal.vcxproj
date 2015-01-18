@@ -149,7 +149,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\libgamegraphics\utils\dumppal.cpp" />
+    <ClCompile Include="..\libgamegraphics\git\utils\dumppal.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\libgamecommon\libgamecommon.vcxproj">

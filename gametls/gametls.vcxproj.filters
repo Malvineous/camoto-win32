@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\libgamegraphics\examples\gametls.cpp">
+    <ClCompile Include="..\libgamegraphics\git\examples\gametls.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

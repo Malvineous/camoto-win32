@@ -15,111 +15,111 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\libgamecommon\src\bitstream.cpp">
+    <ClCompile Include="git\src\bitstream.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamecommon\src\error.cpp">
+    <ClCompile Include="git\src\error.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamecommon\src\filter.cpp">
+    <ClCompile Include="git\src\filter.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamecommon\src\filter_dummy.cpp">
+    <ClCompile Include="git\src\filter_dummy.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamecommon\src\iff.cpp">
+    <ClCompile Include="git\src\iff.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamecommon\src\iostream_helpers.cpp">
+    <ClCompile Include="git\src\iostream_helpers.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamecommon\src\lzw.cpp">
+    <ClCompile Include="git\src\lzw.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamecommon\src\metadata.cpp">
+    <ClCompile Include="git\src\metadata.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamecommon\src\stream.cpp">
+    <ClCompile Include="git\src\stream.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamecommon\src\stream_file.cpp">
+    <ClCompile Include="git\src\stream_file.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamecommon\src\stream_filtered.cpp">
+    <ClCompile Include="git\src\stream_filtered.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamecommon\src\stream_memory.cpp">
+    <ClCompile Include="git\src\stream_memory.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamecommon\src\stream_seg.cpp">
+    <ClCompile Include="git\src\stream_seg.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamecommon\src\stream_string.cpp">
+    <ClCompile Include="git\src\stream_string.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamecommon\src\stream_sub.cpp">
+    <ClCompile Include="git\src\stream_sub.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamecommon\src\suppitem.cpp">
+    <ClCompile Include="git\src\suppitem.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\libgamecommon\include\camoto\bitstream.hpp">
+    <ClInclude Include="git\include\camoto\bitstream.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamecommon\include\camoto\byteorder.hpp">
+    <ClInclude Include="git\include\camoto\byteorder.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamecommon\include\camoto\debug.hpp">
+    <ClInclude Include="git\include\camoto\debug.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamecommon\include\camoto\error.hpp">
+    <ClInclude Include="git\include\camoto\error.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamecommon\include\camoto\filter.hpp">
+    <ClInclude Include="git\include\camoto\filter.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamecommon\include\camoto\filter_dummy.hpp">
+    <ClInclude Include="git\include\camoto\filter_dummy.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamecommon\include\camoto\iff.hpp">
+    <ClInclude Include="git\include\camoto\iff.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamecommon\include\camoto\iostream_helpers.hpp">
+    <ClInclude Include="git\include\camoto\iostream_helpers.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamecommon\include\camoto\lzw.hpp">
+    <ClInclude Include="git\include\camoto\lzw.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamecommon\include\camoto\metadata.hpp">
+    <ClInclude Include="git\include\camoto\metadata.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamecommon\include\camoto\stream.hpp">
+    <ClInclude Include="git\include\camoto\stream.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamecommon\include\camoto\stream_file.hpp">
+    <ClInclude Include="git\include\camoto\stream_file.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamecommon\include\camoto\stream_filtered.hpp">
+    <ClInclude Include="git\include\camoto\stream_filtered.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamecommon\include\camoto\stream_memory.hpp">
+    <ClInclude Include="git\include\camoto\stream_memory.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamecommon\include\camoto\stream_seg.hpp">
+    <ClInclude Include="git\include\camoto\stream_seg.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamecommon\include\camoto\stream_string.hpp">
+    <ClInclude Include="git\include\camoto\stream_string.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamecommon\include\camoto\stream_sub.hpp">
+    <ClInclude Include="git\include\camoto\stream_sub.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamecommon\include\camoto\suppitem.hpp">
+    <ClInclude Include="git\include\camoto\suppitem.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamecommon\include\camoto\util.hpp">
+    <ClInclude Include="git\include\camoto\util.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

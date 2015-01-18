@@ -157,7 +157,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\libgamearchive\examples\gamecomp.cpp" />
+    <ClCompile Include="..\libgamearchive\git\examples\gamecomp.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

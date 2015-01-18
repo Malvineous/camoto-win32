@@ -149,7 +149,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\libgamearchive\examples\gamearch.cpp" />
+    <ClCompile Include="..\libgamearchive\git\examples\gamearch.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\libgamearchive\libgamearchive.vcxproj">

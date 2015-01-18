@@ -15,159 +15,159 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\libgamearchive\tests\test-archive.cpp">
+    <ClCompile Include="..\libgamearchive\git\tests\test-archive.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamearchive\tests\test-filter.cpp">
+    <ClCompile Include="..\libgamearchive\git\tests\test-filter.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamearchive\tests\test-filter-bash-rle.cpp">
+    <ClCompile Include="..\libgamearchive\git\tests\test-filter-bash-rle.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamearchive\tests\test-filter-bitswap.cpp">
+    <ClCompile Include="..\libgamearchive\git\tests\test-filter-bitswap.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamearchive\tests\test-filter-ddave-rle.cpp">
+    <ClCompile Include="..\libgamearchive\git\tests\test-filter-ddave-rle.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamearchive\tests\test-filter-glb-raptor.cpp">
+    <ClCompile Include="..\libgamearchive\git\tests\test-filter-glb-raptor.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamearchive\tests\test-filter-got-lzss.cpp">
+    <ClCompile Include="..\libgamearchive\git\tests\test-filter-got-lzss.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamearchive\tests\test-filter-sam.cpp">
+    <ClCompile Include="..\libgamearchive\git\tests\test-filter-sam.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamearchive\tests\test-filter-xor.cpp">
+    <ClCompile Include="..\libgamearchive\git\tests\test-filter-xor.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamearchive\tests\test-filter-xor-blood.cpp">
+    <ClCompile Include="..\libgamearchive\git\tests\test-filter-xor-blood.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamearchive\tests\test-filter-zone66.cpp">
+    <ClCompile Include="..\libgamearchive\git\tests\test-filter-zone66.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamearchive\tests\test-fmt-bnk-harry.cpp">
+    <ClCompile Include="..\libgamearchive\git\tests\test-fmt-bnk-harry.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamearchive\tests\test-fmt-dat-bash.cpp">
+    <ClCompile Include="..\libgamearchive\git\tests\test-fmt-dat-bash.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamearchive\tests\test-fmt-dat-bash-compressed.cpp">
+    <ClCompile Include="..\libgamearchive\git\tests\test-fmt-dat-bash-compressed.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamearchive\tests\test-fmt-dat-got.cpp">
+    <ClCompile Include="..\libgamearchive\git\tests\test-fmt-dat-got.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamearchive\tests\test-fmt-dat-highway.cpp">
+    <ClCompile Include="..\libgamearchive\git\tests\test-fmt-dat-highway.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamearchive\tests\test-fmt-dat-hugo.cpp">
+    <ClCompile Include="..\libgamearchive\git\tests\test-fmt-dat-hugo.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamearchive\tests\test-fmt-dat-lostvikings.cpp">
+    <ClCompile Include="..\libgamearchive\git\tests\test-fmt-dat-lostvikings.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamearchive\tests\test-fmt-dat-mystic.cpp">
+    <ClCompile Include="..\libgamearchive\git\tests\test-fmt-dat-mystic.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamearchive\tests\test-fmt-dat-sango.cpp">
+    <ClCompile Include="..\libgamearchive\git\tests\test-fmt-dat-sango.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamearchive\tests\test-fmt-dat-wacky.cpp">
+    <ClCompile Include="..\libgamearchive\git\tests\test-fmt-dat-wacky.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamearchive\tests\test-fmt-dlt-stargunner.cpp">
+    <ClCompile Include="..\libgamearchive\git\tests\test-fmt-dlt-stargunner.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamearchive\tests\test-fmt-epf-lionking.cpp">
+    <ClCompile Include="..\libgamearchive\git\tests\test-fmt-epf-lionking.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamearchive\tests\test-fmt-glb-raptor.cpp">
+    <ClCompile Include="..\libgamearchive\git\tests\test-fmt-glb-raptor.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamearchive\tests\test-fmt-grp-duke3d.cpp">
+    <ClCompile Include="..\libgamearchive\git\tests\test-fmt-grp-duke3d.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamearchive\tests\test-fmt-hog-descent.cpp">
+    <ClCompile Include="..\libgamearchive\git\tests\test-fmt-hog-descent.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamearchive\tests\test-fmt-lbr-vinyl.cpp">
+    <ClCompile Include="..\libgamearchive\git\tests\test-fmt-lbr-vinyl.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamearchive\tests\test-fmt-lib-mythos.cpp">
+    <ClCompile Include="..\libgamearchive\git\tests\test-fmt-lib-mythos.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamearchive\tests\test-fmt-pcxlib.cpp">
+    <ClCompile Include="..\libgamearchive\git\tests\test-fmt-pcxlib.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamearchive\tests\test-fmt-pod-tv.cpp">
+    <ClCompile Include="..\libgamearchive\git\tests\test-fmt-pod-tv.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamearchive\tests\test-fmt-resource-tim.cpp">
+    <ClCompile Include="..\libgamearchive\git\tests\test-fmt-resource-tim.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamearchive\tests\test-fmt-resource-tim-fat.cpp">
+    <ClCompile Include="..\libgamearchive\git\tests\test-fmt-resource-tim-fat.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamearchive\tests\test-fmt-res-stellar7.cpp">
+    <ClCompile Include="..\libgamearchive\git\tests\test-fmt-res-stellar7.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamearchive\tests\test-fmt-rff-blood.cpp">
+    <ClCompile Include="..\libgamearchive\git\tests\test-fmt-rff-blood.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamearchive\tests\test-fmt-rff-blood_encrypted.cpp">
+    <ClCompile Include="..\libgamearchive\git\tests\test-fmt-rff-blood_encrypted.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamearchive\tests\test-fmt-roads-skyroads.cpp">
+    <ClCompile Include="..\libgamearchive\git\tests\test-fmt-roads-skyroads.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamearchive\tests\test-fmt-vol-cosmo.cpp">
+    <ClCompile Include="..\libgamearchive\git\tests\test-fmt-vol-cosmo.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamearchive\tests\test-fmt-wad-doom.cpp">
+    <ClCompile Include="..\libgamearchive\git\tests\test-fmt-wad-doom.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamearchive\tests\tests.cpp">
+    <ClCompile Include="..\libgamearchive\git\tests\tests.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamearchive\src\filter-bash-rle.cpp">
+    <ClCompile Include="..\libgamearchive\git\src\filter-bash-rle.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamearchive\src\filter-bitswap.cpp">
+    <ClCompile Include="..\libgamearchive\git\src\filter-bitswap.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamearchive\src\filter-ddave-rle.cpp">
+    <ClCompile Include="..\libgamearchive\git\src\filter-ddave-rle.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamearchive\src\filter-glb-raptor.cpp">
+    <ClCompile Include="..\libgamearchive\git\src\filter-glb-raptor.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamearchive\src\filter-got-lzss.cpp">
+    <ClCompile Include="..\libgamearchive\git\src\filter-got-lzss.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamearchive\src\filter-xor.cpp">
+    <ClCompile Include="..\libgamearchive\git\src\filter-xor.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamearchive\src\filter-xor-blood.cpp">
+    <ClCompile Include="..\libgamearchive\git\src\filter-xor-blood.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamearchive\src\filter-xor-sagent.cpp">
+    <ClCompile Include="..\libgamearchive\git\src\filter-xor-sagent.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamearchive\src\filter-zone66.cpp">
+    <ClCompile Include="..\libgamearchive\git\src\filter-zone66.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\libgamearchive\tests\test-archive.hpp">
+    <ClInclude Include="..\libgamearchive\git\tests\test-archive.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamearchive\tests\test-filter.hpp">
+    <ClInclude Include="..\libgamearchive\git\tests\test-filter.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamearchive\tests\tests.hpp">
+    <ClInclude Include="..\libgamearchive\git\tests\tests.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

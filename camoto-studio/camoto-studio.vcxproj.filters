@@ -15,171 +15,171 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\camoto-studio\src\audio.cpp">
+    <ClCompile Include="git\src\audio.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\camoto-studio\src\camotolibs.cpp">
+    <ClCompile Include="git\src\camotolibs.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\camoto-studio\src\dlg-export-mus.cpp">
+    <ClCompile Include="git\src\dlg-export-mus.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\camoto-studio\src\dlg-import-mus.cpp">
+    <ClCompile Include="git\src\dlg-import-mus.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\camoto-studio\src\dlg-map-attr.cpp">
+    <ClCompile Include="git\src\dlg-map-attr.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\camoto-studio\src\editor.cpp">
+    <ClCompile Include="git\src\editor.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\camoto-studio\src\editor-image.cpp">
+    <ClCompile Include="git\src\editor-image.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\camoto-studio\src\editor-map.cpp">
+    <ClCompile Include="git\src\editor-map.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\camoto-studio\src\editor-map-basecanvas.cpp">
+    <ClCompile Include="git\src\editor-map-basecanvas.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\camoto-studio\src\editor-map-canvas.cpp">
+    <ClCompile Include="git\src\editor-map-canvas.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\camoto-studio\src\editor-map-document.cpp">
+    <ClCompile Include="git\src\editor-map-document.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\camoto-studio\src\editor-map-tilepanel.cpp">
+    <ClCompile Include="git\src\editor-map-tilepanel.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\camoto-studio\src\editor-map-tilepanel-canvas.cpp">
+    <ClCompile Include="git\src\editor-map-tilepanel-canvas.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\camoto-studio\src\editor-music.cpp">
+    <ClCompile Include="git\src\editor-music.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\camoto-studio\src\editor-music-document.cpp">
+    <ClCompile Include="git\src\editor-music-document.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\camoto-studio\src\editor-music-eventpanel.cpp">
+    <ClCompile Include="git\src\editor-music-eventpanel.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\camoto-studio\src\editor-music-instrumentlistpanel.cpp">
+    <ClCompile Include="git\src\editor-music-instrumentlistpanel.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\camoto-studio\src\editor-music-instrumentpanel.cpp">
+    <ClCompile Include="git\src\editor-music-instrumentpanel.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\camoto-studio\src\editor-tileset.cpp">
+    <ClCompile Include="git\src\editor-tileset.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\camoto-studio\src\editor-tileset-canvas.cpp">
+    <ClCompile Include="git\src\editor-tileset-canvas.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\camoto-studio\src\exceptions.cpp">
+    <ClCompile Include="git\src\exceptions.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\camoto-studio\src\gamelist.cpp">
+    <ClCompile Include="git\src\gamelist.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\camoto-studio\src\main.cpp">
+    <ClCompile Include="git\src\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\camoto-studio\src\newproj.cpp">
+    <ClCompile Include="git\src\newproj.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\camoto-studio\src\prefsdlg.cpp">
+    <ClCompile Include="git\src\prefsdlg.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\camoto-studio\src\project.cpp">
+    <ClCompile Include="git\src\project.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\camoto-studio\src\studio.cpp">
+    <ClCompile Include="git\src\studio.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\camoto-studio\src\audio.hpp">
+    <ClInclude Include="git\src\audio.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\camoto-studio\src\camotolibs.hpp">
+    <ClInclude Include="git\src\camotolibs.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\camoto-studio\src\dlg-export-mus.hpp">
+    <ClInclude Include="git\src\dlg-export-mus.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\camoto-studio\src\dlg-import-mus.hpp">
+    <ClInclude Include="git\src\dlg-import-mus.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\camoto-studio\src\dlg-map-attr.hpp">
+    <ClInclude Include="git\src\dlg-map-attr.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\camoto-studio\src\dosbox.hpp">
+    <ClInclude Include="git\src\dosbox.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\camoto-studio\src\editor.hpp">
+    <ClInclude Include="git\src\editor.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\camoto-studio\src\editor-image.hpp">
+    <ClInclude Include="git\src\editor-image.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\camoto-studio\src\editor-map.hpp">
+    <ClInclude Include="git\src\editor-map.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\camoto-studio\src\editor-map-basecanvas.hpp">
+    <ClInclude Include="git\src\editor-map-basecanvas.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\camoto-studio\src\editor-map-canvas.hpp">
+    <ClInclude Include="git\src\editor-map-canvas.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\camoto-studio\src\editor-map-document.hpp">
+    <ClInclude Include="git\src\editor-map-document.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\camoto-studio\src\editor-map-tilepanel.hpp">
+    <ClInclude Include="git\src\editor-map-tilepanel.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\camoto-studio\src\editor-map-tilepanel-canvas.hpp">
+    <ClInclude Include="git\src\editor-map-tilepanel-canvas.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\camoto-studio\src\editor-music.hpp">
+    <ClInclude Include="git\src\editor-music.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\camoto-studio\src\editor-music-document.hpp">
+    <ClInclude Include="git\src\editor-music-document.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\camoto-studio\src\editor-music-eventpanel.hpp">
+    <ClInclude Include="git\src\editor-music-eventpanel.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\camoto-studio\src\editor-music-instrumentlistpanel.hpp">
+    <ClInclude Include="git\src\editor-music-instrumentlistpanel.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\camoto-studio\src\editor-music-instrumentpanel.hpp">
+    <ClInclude Include="git\src\editor-music-instrumentpanel.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\camoto-studio\src\editor-tileset.hpp">
+    <ClInclude Include="git\src\editor-tileset.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\camoto-studio\src\editor-tileset-canvas.hpp">
+    <ClInclude Include="git\src\editor-tileset-canvas.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\camoto-studio\src\exceptions.hpp">
+    <ClInclude Include="git\src\exceptions.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\camoto-studio\src\gamelist.hpp">
+    <ClInclude Include="git\src\gamelist.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\camoto-studio\src\main.hpp">
+    <ClInclude Include="git\src\main.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\camoto-studio\src\newproj.hpp">
+    <ClInclude Include="git\src\newproj.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\camoto-studio\src\prefsdlg.hpp">
+    <ClInclude Include="git\src\prefsdlg.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\camoto-studio\src\project.hpp">
+    <ClInclude Include="git\src\project.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\camoto-studio\src\studio.hpp">
+    <ClInclude Include="git\src\studio.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

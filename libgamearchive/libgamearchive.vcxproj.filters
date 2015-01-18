@@ -15,309 +15,309 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\libgamearchive\src\archive.cpp">
+    <ClCompile Include="git\src\archive.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamearchive\src\fatarchive.cpp">
+    <ClCompile Include="git\src\fatarchive.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamearchive\src\filter-bash.cpp">
+    <ClCompile Include="git\src\filter-bash.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamearchive\src\filter-bash-rle.cpp">
+    <ClCompile Include="git\src\filter-bash-rle.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamearchive\src\filter-bitswap.cpp">
+    <ClCompile Include="git\src\filter-bitswap.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamearchive\src\filter-ddave-rle.cpp">
+    <ClCompile Include="git\src\filter-ddave-rle.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamearchive\src\filter-epfs.cpp">
+    <ClCompile Include="git\src\filter-epfs.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamearchive\src\filter-glb-raptor.cpp">
+    <ClCompile Include="git\src\filter-glb-raptor.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamearchive\src\filter-got-lzss.cpp">
+    <ClCompile Include="git\src\filter-got-lzss.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamearchive\src\filter-skyroads.cpp">
+    <ClCompile Include="git\src\filter-skyroads.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamearchive\src\filter-stargunner.cpp">
+    <ClCompile Include="git\src\filter-stargunner.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamearchive\src\filter-stellar7.cpp">
+    <ClCompile Include="git\src\filter-stellar7.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamearchive\src\filter-xor.cpp">
+    <ClCompile Include="git\src\filter-xor.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamearchive\src\filter-xor-blood.cpp">
+    <ClCompile Include="git\src\filter-xor-blood.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamearchive\src\filter-xor-sagent.cpp">
+    <ClCompile Include="git\src\filter-xor-sagent.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamearchive\src\filter-zone66.cpp">
+    <ClCompile Include="git\src\filter-zone66.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamearchive\src\fixedarchive.cpp">
+    <ClCompile Include="git\src\fixedarchive.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamearchive\src\fmt-bnk-harry.cpp">
+    <ClCompile Include="git\src\fmt-bnk-harry.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamearchive\src\fmt-da-levels.cpp">
+    <ClCompile Include="git\src\fmt-da-levels.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamearchive\src\fmt-dat-bash.cpp">
+    <ClCompile Include="git\src\fmt-dat-bash.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamearchive\src\fmt-dat-got.cpp">
+    <ClCompile Include="git\src\fmt-dat-got.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamearchive\src\fmt-dat-highway.cpp">
+    <ClCompile Include="git\src\fmt-dat-highway.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamearchive\src\fmt-dat-hocus.cpp">
+    <ClCompile Include="git\src\fmt-dat-hocus.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamearchive\src\fmt-dat-hugo.cpp">
+    <ClCompile Include="git\src\fmt-dat-hugo.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamearchive\src\fmt-dat-lostvikings.cpp">
+    <ClCompile Include="git\src\fmt-dat-lostvikings.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamearchive\src\fmt-dat-mystic.cpp">
+    <ClCompile Include="git\src\fmt-dat-mystic.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamearchive\src\fmt-dat-sango.cpp">
+    <ClCompile Include="git\src\fmt-dat-sango.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamearchive\src\fmt-dat-wacky.cpp">
+    <ClCompile Include="git\src\fmt-dat-wacky.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamearchive\src\fmt-dlt-stargunner.cpp">
+    <ClCompile Include="git\src\fmt-dlt-stargunner.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamearchive\src\fmt-epf-lionking.cpp">
+    <ClCompile Include="git\src\fmt-epf-lionking.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamearchive\src\fmt-exe-ccaves.cpp">
+    <ClCompile Include="git\src\fmt-exe-ccaves.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamearchive\src\fmt-exe-ddave.cpp">
+    <ClCompile Include="git\src\fmt-exe-ddave.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamearchive\src\fmt-gd-doofus.cpp">
+    <ClCompile Include="git\src\fmt-gd-doofus.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamearchive\src\fmt-glb-raptor.cpp">
+    <ClCompile Include="git\src\fmt-glb-raptor.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamearchive\src\fmt-grp-duke3d.cpp">
+    <ClCompile Include="git\src\fmt-grp-duke3d.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamearchive\src\fmt-hog-descent.cpp">
+    <ClCompile Include="git\src\fmt-hog-descent.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamearchive\src\fmt-lbr-vinyl.cpp">
+    <ClCompile Include="git\src\fmt-lbr-vinyl.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamearchive\src\fmt-lib-mythos.cpp">
+    <ClCompile Include="git\src\fmt-lib-mythos.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamearchive\src\fmt-pcxlib.cpp">
+    <ClCompile Include="git\src\fmt-pcxlib.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamearchive\src\fmt-pod-tv.cpp">
+    <ClCompile Include="git\src\fmt-pod-tv.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamearchive\src\fmt-resource-tim.cpp">
+    <ClCompile Include="git\src\fmt-resource-tim.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamearchive\src\fmt-resource-tim-fat.cpp">
+    <ClCompile Include="git\src\fmt-resource-tim-fat.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamearchive\src\fmt-res-stellar7.cpp">
+    <ClCompile Include="git\src\fmt-res-stellar7.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamearchive\src\fmt-rff-blood.cpp">
+    <ClCompile Include="git\src\fmt-rff-blood.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamearchive\src\fmt-roads-skyroads.cpp">
+    <ClCompile Include="git\src\fmt-roads-skyroads.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamearchive\src\fmt-vol-cosmo.cpp">
+    <ClCompile Include="git\src\fmt-vol-cosmo.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamearchive\src\fmt-wad-doom.cpp">
+    <ClCompile Include="git\src\fmt-wad-doom.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamearchive\src\main.cpp">
+    <ClCompile Include="git\src\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamearchive\src\util.cpp">
+    <ClCompile Include="git\src\util.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\libgamearchive\src\fatarchive.hpp">
+    <ClInclude Include="git\src\fatarchive.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamearchive\src\filter-bash.hpp">
+    <ClInclude Include="git\src\filter-bash.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamearchive\src\filter-bash-rle.hpp">
+    <ClInclude Include="git\src\filter-bash-rle.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamearchive\src\filter-bitswap.hpp">
+    <ClInclude Include="git\src\filter-bitswap.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamearchive\src\filter-ddave-rle.hpp">
+    <ClInclude Include="git\src\filter-ddave-rle.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamearchive\src\filter-epfs.hpp">
+    <ClInclude Include="git\src\filter-epfs.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamearchive\src\filter-glb-raptor.hpp">
+    <ClInclude Include="git\src\filter-glb-raptor.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamearchive\src\filter-got-lzss.hpp">
+    <ClInclude Include="git\src\filter-got-lzss.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamearchive\src\filter-skyroads.hpp">
+    <ClInclude Include="git\src\filter-skyroads.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamearchive\src\filter-stargunner.hpp">
+    <ClInclude Include="git\src\filter-stargunner.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamearchive\src\filter-stellar7.hpp">
+    <ClInclude Include="git\src\filter-stellar7.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamearchive\src\filter-xor.hpp">
+    <ClInclude Include="git\src\filter-xor.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamearchive\src\filter-xor-blood.hpp">
+    <ClInclude Include="git\src\filter-xor-blood.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamearchive\src\filter-xor-sagent.hpp">
+    <ClInclude Include="git\src\filter-xor-sagent.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamearchive\src\filter-zone66.hpp">
+    <ClInclude Include="git\src\filter-zone66.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamearchive\src\fmt-bnk-harry.hpp">
+    <ClInclude Include="git\src\fmt-bnk-harry.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamearchive\src\fmt-da-levels.hpp">
+    <ClInclude Include="git\src\fmt-da-levels.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamearchive\src\fmt-dat-bash.hpp">
+    <ClInclude Include="git\src\fmt-dat-bash.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamearchive\src\fmt-dat-got.hpp">
+    <ClInclude Include="git\src\fmt-dat-got.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamearchive\src\fmt-dat-highway.hpp">
+    <ClInclude Include="git\src\fmt-dat-highway.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamearchive\src\fmt-dat-hocus.hpp">
+    <ClInclude Include="git\src\fmt-dat-hocus.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamearchive\src\fmt-dat-hugo.hpp">
+    <ClInclude Include="git\src\fmt-dat-hugo.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamearchive\src\fmt-dat-lostvikings.hpp">
+    <ClInclude Include="git\src\fmt-dat-lostvikings.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamearchive\src\fmt-dat-mystic.hpp">
+    <ClInclude Include="git\src\fmt-dat-mystic.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamearchive\src\fmt-dat-sango.hpp">
+    <ClInclude Include="git\src\fmt-dat-sango.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamearchive\src\fmt-dat-wacky.hpp">
+    <ClInclude Include="git\src\fmt-dat-wacky.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamearchive\src\fmt-dlt-stargunner.hpp">
+    <ClInclude Include="git\src\fmt-dlt-stargunner.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamearchive\src\fmt-epf-lionking.hpp">
+    <ClInclude Include="git\src\fmt-epf-lionking.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamearchive\src\fmt-exe-ccaves.hpp">
+    <ClInclude Include="git\src\fmt-exe-ccaves.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamearchive\src\fmt-exe-ddave.hpp">
+    <ClInclude Include="git\src\fmt-exe-ddave.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamearchive\src\fmt-gd-doofus.hpp">
+    <ClInclude Include="git\src\fmt-gd-doofus.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamearchive\src\fmt-glb-raptor.hpp">
+    <ClInclude Include="git\src\fmt-glb-raptor.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamearchive\src\fmt-grp-duke3d.hpp">
+    <ClInclude Include="git\src\fmt-grp-duke3d.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamearchive\src\fmt-hog-descent.hpp">
+    <ClInclude Include="git\src\fmt-hog-descent.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamearchive\src\fmt-lbr-vinyl.hpp">
+    <ClInclude Include="git\src\fmt-lbr-vinyl.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamearchive\src\fmt-lib-mythos.hpp">
+    <ClInclude Include="git\src\fmt-lib-mythos.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamearchive\src\fmt-pcxlib.hpp">
+    <ClInclude Include="git\src\fmt-pcxlib.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamearchive\src\fmt-pod-tv.hpp">
+    <ClInclude Include="git\src\fmt-pod-tv.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamearchive\src\fmt-resource-tim.hpp">
+    <ClInclude Include="git\src\fmt-resource-tim.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamearchive\src\fmt-resource-tim-fat.hpp">
+    <ClInclude Include="git\src\fmt-resource-tim-fat.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamearchive\src\fmt-res-stellar7.hpp">
+    <ClInclude Include="git\src\fmt-res-stellar7.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamearchive\src\fmt-rff-blood.hpp">
+    <ClInclude Include="git\src\fmt-rff-blood.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamearchive\src\fmt-roads-skyroads.hpp">
+    <ClInclude Include="git\src\fmt-roads-skyroads.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamearchive\src\fmt-vol-cosmo.hpp">
+    <ClInclude Include="git\src\fmt-vol-cosmo.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamearchive\src\fmt-wad-doom.hpp">
+    <ClInclude Include="git\src\fmt-wad-doom.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamearchive\include\camoto\gamearchive.hpp">
+    <ClInclude Include="git\include\camoto\gamearchive.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamearchive\include\camoto\gamearchive\archive.hpp">
+    <ClInclude Include="git\include\camoto\gamearchive\archive.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamearchive\include\camoto\gamearchive\archivetype.hpp">
+    <ClInclude Include="git\include\camoto\gamearchive\archivetype.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamearchive\include\camoto\gamearchive\filtertype.hpp">
+    <ClInclude Include="git\include\camoto\gamearchive\filtertype.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamearchive\include\camoto\gamearchive\fixedarchive.hpp">
+    <ClInclude Include="git\include\camoto\gamearchive\fixedarchive.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamearchive\include\camoto\gamearchive\manager.hpp">
+    <ClInclude Include="git\include\camoto\gamearchive\manager.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamearchive\include\camoto\gamearchive\util.hpp">
+    <ClInclude Include="git\include\camoto\gamearchive\util.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

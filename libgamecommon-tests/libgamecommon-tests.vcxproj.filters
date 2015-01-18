@@ -15,45 +15,45 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\libgamecommon\tests\test-bitstream.cpp">
+    <ClCompile Include="..\libgamecommon\git\tests\test-bitstream.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamecommon\tests\test-byteorder.cpp">
+    <ClCompile Include="..\libgamecommon\git\tests\test-byteorder.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamecommon\tests\test-iff.cpp">
+    <ClCompile Include="..\libgamecommon\git\tests\test-iff.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamecommon\tests\test-iostream_helpers.cpp">
+    <ClCompile Include="..\libgamecommon\git\tests\test-iostream_helpers.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamecommon\tests\test-lzw.cpp">
+    <ClCompile Include="..\libgamecommon\git\tests\test-lzw.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamecommon\tests\tests.cpp">
+    <ClCompile Include="..\libgamecommon\git\tests\tests.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamecommon\tests\test-stream.cpp">
+    <ClCompile Include="..\libgamecommon\git\tests\test-stream.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamecommon\tests\test-stream_file.cpp">
+    <ClCompile Include="..\libgamecommon\git\tests\test-stream_file.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamecommon\tests\test-stream_filtered.cpp">
+    <ClCompile Include="..\libgamecommon\git\tests\test-stream_filtered.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamecommon\tests\test-stream_seg.cpp">
+    <ClCompile Include="..\libgamecommon\git\tests\test-stream_seg.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamecommon\tests\test-stream_string.cpp">
+    <ClCompile Include="..\libgamecommon\git\tests\test-stream_string.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamecommon\tests\test-stream_sub.cpp">
+    <ClCompile Include="..\libgamecommon\git\tests\test-stream_sub.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\libgamecommon\tests\tests.hpp">
+    <ClInclude Include="..\libgamecommon\git\tests\tests.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

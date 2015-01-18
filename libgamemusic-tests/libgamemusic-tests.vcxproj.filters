@@ -15,75 +15,75 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\libgamemusic\tests\test-midi.cpp">
+    <ClCompile Include="..\libgamemusic\git\tests\test-midi.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamemusic\tests\test-mus-cdfm-zone66.cpp">
+    <ClCompile Include="..\libgamemusic\git\tests\test-mus-cdfm-zone66.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamemusic\tests\test-mus-cdfm-zone66-gus.cpp">
+    <ClCompile Include="..\libgamemusic\git\tests\test-mus-cdfm-zone66-gus.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamemusic\tests\test-mus-cmf-creativelabs.cpp">
+    <ClCompile Include="..\libgamemusic\git\tests\test-mus-cmf-creativelabs.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamemusic\tests\test-mus-dro-dosbox-v1.cpp">
+    <ClCompile Include="..\libgamemusic\git\tests\test-mus-dro-dosbox-v1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamemusic\tests\test-mus-dro-dosbox-v2.cpp">
+    <ClCompile Include="..\libgamemusic\git\tests\test-mus-dro-dosbox-v2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamemusic\tests\test-mus-dsm-dsik.cpp">
+    <ClCompile Include="..\libgamemusic\git\tests\test-mus-dsm-dsik.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamemusic\tests\test-mus-got.cpp">
+    <ClCompile Include="..\libgamemusic\git\tests\test-mus-got.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamemusic\tests\test-music.cpp">
+    <ClCompile Include="..\libgamemusic\git\tests\test-music.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamemusic\tests\test-mus-imf-idsoftware-type0.cpp">
+    <ClCompile Include="..\libgamemusic\git\tests\test-mus-imf-idsoftware-type0.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamemusic\tests\test-mus-imf-idsoftware-type1.cpp">
+    <ClCompile Include="..\libgamemusic\git\tests\test-mus-imf-idsoftware-type1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamemusic\tests\test-mus-klm-wacky.cpp">
+    <ClCompile Include="..\libgamemusic\git\tests\test-mus-klm-wacky.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamemusic\tests\test-mus-mid-type0.cpp">
+    <ClCompile Include="..\libgamemusic\git\tests\test-mus-mid-type0.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamemusic\tests\test-mus-mus-dmx.cpp">
+    <ClCompile Include="..\libgamemusic\git\tests\test-mus-mus-dmx.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamemusic\tests\test-mus-raw-rdos.cpp">
+    <ClCompile Include="..\libgamemusic\git\tests\test-mus-raw-rdos.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamemusic\tests\test-mus-s3m-screamtracker.cpp">
+    <ClCompile Include="..\libgamemusic\git\tests\test-mus-s3m-screamtracker.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamemusic\tests\test-opl.cpp">
+    <ClCompile Include="..\libgamemusic\git\tests\test-opl.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamemusic\tests\test-opl-normalise.cpp">
+    <ClCompile Include="..\libgamemusic\git\tests\test-opl-normalise.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamemusic\tests\tests.cpp">
+    <ClCompile Include="..\libgamemusic\git\tests\tests.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamemusic\tests\test-tempo.cpp">
+    <ClCompile Include="..\libgamemusic\git\tests\test-tempo.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libgamemusic\tests\test-track-split.cpp">
+    <ClCompile Include="..\libgamemusic\git\tests\test-track-split.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\libgamemusic\tests\test-music.hpp">
+    <ClInclude Include="..\libgamemusic\git\tests\test-music.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libgamemusic\tests\tests.hpp">
+    <ClInclude Include="..\libgamemusic\git\tests\tests.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

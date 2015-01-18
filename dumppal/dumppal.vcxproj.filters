@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\libgamegraphics\utils\dumppal.cpp">
+    <ClCompile Include="..\libgamegraphics\git\utils\dumppal.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
