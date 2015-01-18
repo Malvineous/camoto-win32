@@ -13,6 +13,10 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Game Info Files">
+      <UniqueIdentifier>{8abe05c4-b613-4798-a7c0-b5a0cfb6bb2e}</UniqueIdentifier>
+      <Extensions>xml</Extensions>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="git\src\audio.cpp">
@@ -185,5 +189,414 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="git\data\games\screenshots\captain-comic.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="git\data\games\icons\captain-comic.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="git\data\maps\unknown-tile.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="git\data\maps\interactive.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="git\data\maps\number-0.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="git\data\maps\number-1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="git\data\maps\number-2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="git\data\maps\number-3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="git\data\maps\number-4.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="git\data\maps\number-5.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="git\data\maps\number-6.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="git\data\maps\number-7.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="git\data\maps\number-8.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="git\data\maps\number-9.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="git\data\maps\number-a.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="git\data\maps\number-b.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="git\data\maps\number-c.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="git\data\maps\number-d.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="git\data\maps\number-e.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="git\data\maps\number-f.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="git\data\icons\zoom_3-1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="git\data\icons\dec-offset.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="git\data\icons\dec-width.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="git\data\icons\export.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="git\data\icons\grid.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="git\data\icons\gtk-media-next-ltr.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="git\data\icons\gtk-media-pause.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="git\data\icons\gtk-media-play-ltr.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="git\data\icons\gtk-media-previous-ltr.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="git\data\icons\gtk-zoom-100.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="git\data\icons\gtk-zoom-in.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="git\data\icons\gtk-zoom-out.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="git\data\icons\import.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="git\data\icons\inc-offset.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="git\data\icons\inc-width.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="git\data\icons\inst-midi.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="git\data\icons\inst-mute.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="git\data\icons\inst-opl.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="git\data\icons\inst-pcm.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="git\data\icons\mode-obj.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="git\data\icons\mode-tile.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="git\data\icons\properties.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="git\data\icons\zoom_1-1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="git\data\icons\zoom_2-1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="git\data\games\screenshots\catacomb.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="git\data\games\screenshots\catacomb-ii.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="git\data\games\screenshots\cosmos-cosmic-adventures.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="git\data\games\screenshots\crystal-caves.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="git\data\games\screenshots\dangerous-dave.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="git\data\games\screenshots\dark-ages.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="git\data\games\screenshots\doofus.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="git\data\games\screenshots\duke-nukem.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="git\data\games\screenshots\duke-nukem-ii.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="git\data\games\screenshots\god-of-thunder.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="git\data\games\screenshots\halloween-harry.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="git\data\games\screenshots\highway-hunter.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="git\data\games\screenshots\hocus-pocus.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="git\data\games\screenshots\hugo1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="git\data\games\screenshots\jill-of-the-jungle.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="git\data\games\screenshots\kiloblaster.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="git\data\games\screenshots\major-stryker.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="git\data\games\screenshots\monster-bash.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="git\data\games\screenshots\mystic-towers.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="git\data\games\screenshots\raptor.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="git\data\games\screenshots\rockford.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="git\data\games\screenshots\scubaventure.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="git\data\games\screenshots\secret-agent.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="git\data\games\screenshots\solar-winds.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="git\data\games\screenshots\trugg.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="git\data\games\screenshots\vinyl-goddess-from-mars.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="git\data\games\screenshots\wacky-wheels.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="git\data\games\screenshots\word-rescue.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="git\data\games\screenshots\xargon.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="git\data\games\screenshots\zone66.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="git\data\games\icons\catacomb.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="git\data\games\icons\catacomb-ii.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="git\data\games\icons\cosmos-cosmic-adventures.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="git\data\games\icons\crystal-caves.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="git\data\games\icons\dangerous-dave.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="git\data\games\icons\dark-ages.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="git\data\games\icons\doofus.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="git\data\games\icons\duke-nukem.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="git\data\games\icons\duke-nukem-ii.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="git\data\games\icons\god-of-thunder.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="git\data\games\icons\halloween-harry.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="git\data\games\icons\highway-hunter.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="git\data\games\icons\hocus-pocus.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="git\data\games\icons\hugo1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="git\data\games\icons\jill-of-the-jungle.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="git\data\games\icons\kiloblaster.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="git\data\games\icons\major-stryker.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="git\data\games\icons\monster-bash.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="git\data\games\icons\mystic-towers.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="git\data\games\icons\raptor.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="git\data\games\icons\rockford.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="git\data\games\icons\scubaventure.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="git\data\games\icons\secret-agent.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="git\data\games\icons\solar-winds.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="git\data\games\icons\trugg.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="git\data\games\icons\vinyl-goddess-from-mars.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="git\data\games\icons\wacky-wheels.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="git\data\games\icons\word-rescue.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="git\data\games\icons\xargon.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="git\data\games\icons\zone66.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="git\data\games\captain-comic.xml">
+      <Filter>Game Info Files</Filter>
+    </Xml>
+    <Xml Include="git\data\games\catacomb.xml">
+      <Filter>Game Info Files</Filter>
+    </Xml>
+    <Xml Include="git\data\games\catacomb-ii.xml">
+      <Filter>Game Info Files</Filter>
+    </Xml>
+    <Xml Include="git\data\games\cosmos-cosmic-adventures.xml">
+      <Filter>Game Info Files</Filter>
+    </Xml>
+    <Xml Include="git\data\games\crystal-caves.xml">
+      <Filter>Game Info Files</Filter>
+    </Xml>
+    <Xml Include="git\data\games\dangerous-dave.xml">
+      <Filter>Game Info Files</Filter>
+    </Xml>
+    <Xml Include="git\data\games\dark-ages.xml">
+      <Filter>Game Info Files</Filter>
+    </Xml>
+    <Xml Include="git\data\games\doofus.xml">
+      <Filter>Game Info Files</Filter>
+    </Xml>
+    <Xml Include="git\data\games\duke-nukem.xml">
+      <Filter>Game Info Files</Filter>
+    </Xml>
+    <Xml Include="git\data\games\duke-nukem-ii.xml">
+      <Filter>Game Info Files</Filter>
+    </Xml>
+    <Xml Include="git\data\games\god-of-thunder.xml">
+      <Filter>Game Info Files</Filter>
+    </Xml>
+    <Xml Include="git\data\games\halloween-harry.xml">
+      <Filter>Game Info Files</Filter>
+    </Xml>
+    <Xml Include="git\data\games\highway-hunter.xml">
+      <Filter>Game Info Files</Filter>
+    </Xml>
+    <Xml Include="git\data\games\hocus-pocus.xml">
+      <Filter>Game Info Files</Filter>
+    </Xml>
+    <Xml Include="git\data\games\hugo1.xml">
+      <Filter>Game Info Files</Filter>
+    </Xml>
+    <Xml Include="git\data\games\jill-of-the-jungle.xml">
+      <Filter>Game Info Files</Filter>
+    </Xml>
+    <Xml Include="git\data\games\kiloblaster.xml">
+      <Filter>Game Info Files</Filter>
+    </Xml>
+    <Xml Include="git\data\games\major-stryker.xml">
+      <Filter>Game Info Files</Filter>
+    </Xml>
+    <Xml Include="git\data\games\monster-bash.xml">
+      <Filter>Game Info Files</Filter>
+    </Xml>
+    <Xml Include="git\data\games\mystic-towers.xml">
+      <Filter>Game Info Files</Filter>
+    </Xml>
+    <Xml Include="git\data\games\raptor.xml">
+      <Filter>Game Info Files</Filter>
+    </Xml>
+    <Xml Include="git\data\games\rockford.xml">
+      <Filter>Game Info Files</Filter>
+    </Xml>
+    <Xml Include="git\data\games\scubaventure.xml">
+      <Filter>Game Info Files</Filter>
+    </Xml>
+    <Xml Include="git\data\games\secret-agent.xml">
+      <Filter>Game Info Files</Filter>
+    </Xml>
+    <Xml Include="git\data\games\solar-winds.xml">
+      <Filter>Game Info Files</Filter>
+    </Xml>
+    <Xml Include="git\data\games\trugg.xml">
+      <Filter>Game Info Files</Filter>
+    </Xml>
+    <Xml Include="git\data\games\vinyl-goddess-from-mars.xml">
+      <Filter>Game Info Files</Filter>
+    </Xml>
+    <Xml Include="git\data\games\wacky-wheels.xml">
+      <Filter>Game Info Files</Filter>
+    </Xml>
+    <Xml Include="git\data\games\word-rescue.xml">
+      <Filter>Game Info Files</Filter>
+    </Xml>
+    <Xml Include="git\data\games\xargon.xml">
+      <Filter>Game Info Files</Filter>
+    </Xml>
+    <Xml Include="git\data\games\zone66.xml">
+      <Filter>Game Info Files</Filter>
+    </Xml>
   </ItemGroup>
 </Project>

@@ -232,6 +232,415 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Image Include="git\data\games\icons\captain-comic.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="git\data\games\icons\catacomb-ii.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="git\data\games\icons\catacomb.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="git\data\games\icons\cosmos-cosmic-adventures.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="git\data\games\icons\crystal-caves.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="git\data\games\icons\dangerous-dave.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="git\data\games\icons\dark-ages.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="git\data\games\icons\doofus.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="git\data\games\icons\duke-nukem-ii.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="git\data\games\icons\duke-nukem.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="git\data\games\icons\god-of-thunder.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="git\data\games\icons\halloween-harry.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="git\data\games\icons\highway-hunter.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="git\data\games\icons\hocus-pocus.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="git\data\games\icons\hugo1.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="git\data\games\icons\jill-of-the-jungle.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="git\data\games\icons\kiloblaster.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="git\data\games\icons\major-stryker.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="git\data\games\icons\monster-bash.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="git\data\games\icons\mystic-towers.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="git\data\games\icons\raptor.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="git\data\games\icons\rockford.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="git\data\games\icons\scubaventure.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="git\data\games\icons\secret-agent.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="git\data\games\icons\solar-winds.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="git\data\games\icons\trugg.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="git\data\games\icons\vinyl-goddess-from-mars.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="git\data\games\icons\wacky-wheels.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="git\data\games\icons\word-rescue.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="git\data\games\icons\xargon.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="git\data\games\icons\zone66.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="git\data\games\screenshots\captain-comic.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="git\data\games\screenshots\catacomb-ii.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="git\data\games\screenshots\catacomb.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="git\data\games\screenshots\cosmos-cosmic-adventures.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="git\data\games\screenshots\crystal-caves.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="git\data\games\screenshots\dangerous-dave.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="git\data\games\screenshots\dark-ages.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="git\data\games\screenshots\doofus.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="git\data\games\screenshots\duke-nukem-ii.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="git\data\games\screenshots\duke-nukem.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="git\data\games\screenshots\god-of-thunder.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="git\data\games\screenshots\halloween-harry.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="git\data\games\screenshots\highway-hunter.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="git\data\games\screenshots\hocus-pocus.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="git\data\games\screenshots\hugo1.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="git\data\games\screenshots\jill-of-the-jungle.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="git\data\games\screenshots\kiloblaster.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="git\data\games\screenshots\major-stryker.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="git\data\games\screenshots\monster-bash.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="git\data\games\screenshots\mystic-towers.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="git\data\games\screenshots\raptor.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="git\data\games\screenshots\rockford.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="git\data\games\screenshots\scubaventure.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="git\data\games\screenshots\secret-agent.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="git\data\games\screenshots\solar-winds.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="git\data\games\screenshots\trugg.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="git\data\games\screenshots\vinyl-goddess-from-mars.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="git\data\games\screenshots\wacky-wheels.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="git\data\games\screenshots\word-rescue.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="git\data\games\screenshots\xargon.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="git\data\games\screenshots\zone66.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="git\data\icons\dec-offset.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="git\data\icons\dec-width.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="git\data\icons\export.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="git\data\icons\grid.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="git\data\icons\gtk-media-next-ltr.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="git\data\icons\gtk-media-pause.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="git\data\icons\gtk-media-play-ltr.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="git\data\icons\gtk-media-previous-ltr.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="git\data\icons\gtk-zoom-100.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="git\data\icons\gtk-zoom-in.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="git\data\icons\gtk-zoom-out.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="git\data\icons\import.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="git\data\icons\inc-offset.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="git\data\icons\inc-width.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="git\data\icons\inst-midi.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="git\data\icons\inst-mute.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="git\data\icons\inst-opl.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="git\data\icons\inst-pcm.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="git\data\icons\mode-obj.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="git\data\icons\mode-tile.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="git\data\icons\properties.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="git\data\icons\zoom_1-1.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="git\data\icons\zoom_2-1.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="git\data\icons\zoom_3-1.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="git\data\maps\interactive.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="git\data\maps\number-0.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="git\data\maps\number-1.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="git\data\maps\number-2.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="git\data\maps\number-3.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="git\data\maps\number-4.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="git\data\maps\number-5.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="git\data\maps\number-6.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="git\data\maps\number-7.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="git\data\maps\number-8.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="git\data\maps\number-9.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="git\data\maps\number-a.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="git\data\maps\number-b.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="git\data\maps\number-c.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="git\data\maps\number-d.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="git\data\maps\number-e.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="git\data\maps\number-f.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="git\data\maps\unknown-tile.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="git\data\games\captain-comic.xml">
+      <DeploymentContent>true</DeploymentContent>
+    </Xml>
+    <Xml Include="git\data\games\catacomb-ii.xml">
+      <DeploymentContent>true</DeploymentContent>
+    </Xml>
+    <Xml Include="git\data\games\catacomb.xml">
+      <DeploymentContent>true</DeploymentContent>
+    </Xml>
+    <Xml Include="git\data\games\cosmos-cosmic-adventures.xml">
+      <DeploymentContent>true</DeploymentContent>
+    </Xml>
+    <Xml Include="git\data\games\crystal-caves.xml">
+      <DeploymentContent>true</DeploymentContent>
+    </Xml>
+    <Xml Include="git\data\games\dangerous-dave.xml">
+      <DeploymentContent>true</DeploymentContent>
+    </Xml>
+    <Xml Include="git\data\games\dark-ages.xml">
+      <DeploymentContent>true</DeploymentContent>
+    </Xml>
+    <Xml Include="git\data\games\doofus.xml">
+      <DeploymentContent>true</DeploymentContent>
+    </Xml>
+    <Xml Include="git\data\games\duke-nukem-ii.xml">
+      <DeploymentContent>true</DeploymentContent>
+    </Xml>
+    <Xml Include="git\data\games\duke-nukem.xml">
+      <DeploymentContent>true</DeploymentContent>
+    </Xml>
+    <Xml Include="git\data\games\god-of-thunder.xml">
+      <DeploymentContent>true</DeploymentContent>
+    </Xml>
+    <Xml Include="git\data\games\halloween-harry.xml">
+      <DeploymentContent>true</DeploymentContent>
+    </Xml>
+    <Xml Include="git\data\games\highway-hunter.xml">
+      <DeploymentContent>true</DeploymentContent>
+    </Xml>
+    <Xml Include="git\data\games\hocus-pocus.xml">
+      <DeploymentContent>true</DeploymentContent>
+    </Xml>
+    <Xml Include="git\data\games\hugo1.xml">
+      <DeploymentContent>true</DeploymentContent>
+    </Xml>
+    <Xml Include="git\data\games\jill-of-the-jungle.xml">
+      <DeploymentContent>true</DeploymentContent>
+    </Xml>
+    <Xml Include="git\data\games\kiloblaster.xml">
+      <DeploymentContent>true</DeploymentContent>
+    </Xml>
+    <Xml Include="git\data\games\major-stryker.xml">
+      <DeploymentContent>true</DeploymentContent>
+    </Xml>
+    <Xml Include="git\data\games\monster-bash.xml">
+      <DeploymentContent>true</DeploymentContent>
+    </Xml>
+    <Xml Include="git\data\games\mystic-towers.xml">
+      <DeploymentContent>true</DeploymentContent>
+    </Xml>
+    <Xml Include="git\data\games\raptor.xml">
+      <DeploymentContent>true</DeploymentContent>
+    </Xml>
+    <Xml Include="git\data\games\rockford.xml">
+      <DeploymentContent>true</DeploymentContent>
+    </Xml>
+    <Xml Include="git\data\games\scubaventure.xml">
+      <DeploymentContent>true</DeploymentContent>
+    </Xml>
+    <Xml Include="git\data\games\secret-agent.xml">
+      <DeploymentContent>true</DeploymentContent>
+    </Xml>
+    <Xml Include="git\data\games\solar-winds.xml">
+      <DeploymentContent>true</DeploymentContent>
+    </Xml>
+    <Xml Include="git\data\games\trugg.xml">
+      <DeploymentContent>true</DeploymentContent>
+    </Xml>
+    <Xml Include="git\data\games\vinyl-goddess-from-mars.xml">
+      <DeploymentContent>true</DeploymentContent>
+    </Xml>
+    <Xml Include="git\data\games\wacky-wheels.xml">
+      <DeploymentContent>true</DeploymentContent>
+    </Xml>
+    <Xml Include="git\data\games\word-rescue.xml">
+      <DeploymentContent>true</DeploymentContent>
+    </Xml>
+    <Xml Include="git\data\games\xargon.xml">
+      <DeploymentContent>true</DeploymentContent>
+    </Xml>
+    <Xml Include="git\data\games\zone66.xml">
+      <DeploymentContent>true</DeploymentContent>
+    </Xml>
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
     <Import Project="..\packages\zlib.redist.1.2.8.7\build\native\zlib.redist.targets" Condition="Exists('..\packages\zlib.redist.1.2.8.7\build\native\zlib.redist.targets')" />
