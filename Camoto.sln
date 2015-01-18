@@ -55,6 +55,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gamemap", "gamemap\gamemap.
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gamemus", "gamemus\gamemus.vcxproj", "{CCFC8B47-CFAB-45AE-A98D-EEAB5CAD8503}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "camoto-setup", "camoto-setup\camoto-setup.vdproj", "{95554877-C9C0-4C4C-8D7D-A19431138189}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -285,6 +287,12 @@ Global
 		{CCFC8B47-CFAB-45AE-A98D-EEAB5CAD8503}.ReleaseMinDependency|Win32.ActiveCfg = Release|Win32
 		{CCFC8B47-CFAB-45AE-A98D-EEAB5CAD8503}.ReleaseMinDependency|x64.ActiveCfg = Release|x64
 		{CCFC8B47-CFAB-45AE-A98D-EEAB5CAD8503}.ReleaseMinDependency|x64.Build.0 = Release|x64
+		{95554877-C9C0-4C4C-8D7D-A19431138189}.Debug|Win32.ActiveCfg = Debug
+		{95554877-C9C0-4C4C-8D7D-A19431138189}.Debug|x64.ActiveCfg = Debug
+		{95554877-C9C0-4C4C-8D7D-A19431138189}.Release|Win32.ActiveCfg = Release
+		{95554877-C9C0-4C4C-8D7D-A19431138189}.Release|x64.ActiveCfg = Release
+		{95554877-C9C0-4C4C-8D7D-A19431138189}.ReleaseMinDependency|Win32.ActiveCfg = Release
+		{95554877-C9C0-4C4C-8D7D-A19431138189}.ReleaseMinDependency|x64.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -310,5 +318,6 @@ Global
 		{AF46B952-23FB-4227-9D63-9F97C645F8B8} = {A1CE58A4-FAD8-478E-AC24-F0D8907445EA}
 		{03595AAC-ACA9-4052-8D98-35CED52AC2DC} = {6B9A443A-7FC6-49EB-953C-3FC72B7C30C7}
 		{CCFC8B47-CFAB-45AE-A98D-EEAB5CAD8503} = {F545BF67-469F-427F-A912-BB07F48C3E22}
+		{95554877-C9C0-4C4C-8D7D-A19431138189} = {74F700AD-7815-49AF-8B43-31D551B7AC94}
 	EndGlobalSection
 EndGlobal
