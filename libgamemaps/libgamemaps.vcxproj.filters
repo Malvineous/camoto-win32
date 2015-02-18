@@ -78,10 +78,10 @@
     <ClCompile Include="git\src\map2d-generic.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="git\src\map-generic.cpp">
+    <ClCompile Include="git\src\util.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="git\src\util.cpp">
+    <ClCompile Include="git\src\fmt-map-duke1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -168,6 +168,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="git\include\camoto\gamemaps\util.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="git\src\fmt-map-duke1.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

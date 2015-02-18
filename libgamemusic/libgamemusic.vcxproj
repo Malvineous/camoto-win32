@@ -158,6 +158,7 @@
     <ClCompile Include="git\src\eventconverter-opl.cpp" />
     <ClCompile Include="git\src\events.cpp" />
     <ClCompile Include="git\src\exceptions.cpp" />
+    <ClCompile Include="git\src\ins-ins-adlib.cpp" />
     <ClCompile Include="git\src\main.cpp" />
     <ClCompile Include="git\src\metadata-malv.cpp" />
     <ClCompile Include="git\src\mus-cdfm-zone66-gus.cpp" />
@@ -213,6 +214,7 @@
     <ClInclude Include="git\src\dosbox.hpp" />
     <ClInclude Include="git\src\encode-midi.hpp" />
     <ClInclude Include="git\src\encode-opl.hpp" />
+    <ClInclude Include="git\src\ins-ins-adlib.hpp" />
     <ClInclude Include="git\src\metadata-malv.hpp" />
     <ClInclude Include="git\src\mus-cdfm-zone66-gus.hpp" />
     <ClInclude Include="git\src\mus-cdfm-zone66.hpp" />
@@ -230,6 +232,7 @@
     <ClInclude Include="git\src\mus-raw-rdos.hpp" />
     <ClInclude Include="git\src\mus-s3m-screamtracker.hpp" />
     <ClInclude Include="git\src\mus-tbsa-doofus.hpp" />
+    <ClInclude Include="git\src\patch-adlib.hpp" />
     <ClInclude Include="git\src\track-split.hpp" />
   </ItemGroup>
   <ItemGroup>

@@ -158,6 +158,7 @@
     <ClCompile Include="git\src\img-ccomic.cpp" />
     <ClCompile Include="git\src\img-cga.cpp" />
     <ClCompile Include="git\src\img-ddave.cpp" />
+    <ClCompile Include="git\src\img-ega-backdrop.cpp" />
     <ClCompile Include="git\src\img-ega-byteplanar-tiled.cpp" />
     <ClCompile Include="git\src\img-ega-byteplanar.cpp" />
     <ClCompile Include="git\src\img-ega-planar.cpp" />
@@ -226,6 +227,7 @@
     <ClInclude Include="git\src\img-ccomic.hpp" />
     <ClInclude Include="git\src\img-cga.hpp" />
     <ClInclude Include="git\src\img-ddave.hpp" />
+    <ClInclude Include="git\src\img-ega-backdrop.hpp" />
     <ClInclude Include="git\src\img-ega-byteplanar-tiled.hpp" />
     <ClInclude Include="git\src\img-ega-byteplanar.hpp" />
     <ClInclude Include="git\src\img-ega-common.hpp" />

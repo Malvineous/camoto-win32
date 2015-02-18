@@ -192,6 +192,9 @@
     <ClCompile Include="git\src\tls-zone66-map.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="git\src\img-ega-backdrop.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="git\src\baseimage.hpp">
@@ -384,6 +387,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="git\include\camoto\gamegraphics\tilesettype.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="git\src\img-ega-backdrop.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

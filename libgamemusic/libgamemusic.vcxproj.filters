@@ -126,6 +126,9 @@
     <ClCompile Include="git\src\track-split.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="git\src\ins-ins-adlib.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="git\src\dbopl.hpp">
@@ -255,6 +258,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="git\include\camoto\gamemusic\util-pcm.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="git\src\ins-ins-adlib.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="git\src\patch-adlib.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

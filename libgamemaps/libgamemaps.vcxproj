@@ -156,6 +156,7 @@
     <ClCompile Include="git\src\fmt-map-cosmo.cpp" />
     <ClCompile Include="git\src\fmt-map-darkages.cpp" />
     <ClCompile Include="git\src\fmt-map-ddave.cpp" />
+    <ClCompile Include="git\src\fmt-map-duke1.cpp" />
     <ClCompile Include="git\src\fmt-map-got.cpp" />
     <ClCompile Include="git\src\fmt-map-harry.cpp" />
     <ClCompile Include="git\src\fmt-map-hocus.cpp" />
@@ -168,7 +169,6 @@
     <ClCompile Include="git\src\fmt-map-xargon.cpp" />
     <ClCompile Include="git\src\fmt-map-zone66.cpp" />
     <ClCompile Include="git\src\main.cpp" />
-    <ClCompile Include="git\src\map-generic.cpp" />
     <ClCompile Include="git\src\map2d-generic.cpp" />
     <ClCompile Include="git\src\map2d_layer.cpp" />
     <ClCompile Include="git\src\util.cpp" />
@@ -188,6 +188,7 @@
     <ClInclude Include="git\src\fmt-map-cosmo.hpp" />
     <ClInclude Include="git\src\fmt-map-darkages.hpp" />
     <ClInclude Include="git\src\fmt-map-ddave.hpp" />
+    <ClInclude Include="git\src\fmt-map-duke1.hpp" />
     <ClInclude Include="git\src\fmt-map-got.hpp" />
     <ClInclude Include="git\src\fmt-map-harry.hpp" />
     <ClInclude Include="git\src\fmt-map-hocus.hpp" />
