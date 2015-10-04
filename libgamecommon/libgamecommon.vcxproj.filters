@@ -24,16 +24,10 @@
     <ClCompile Include="git\src\filter.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="git\src\filter_dummy.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="git\src\iff.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="git\src\iostream_helpers.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="git\src\lzw.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="git\src\metadata.cpp">
@@ -48,9 +42,6 @@
     <ClCompile Include="git\src\stream_filtered.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="git\src\stream_memory.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="git\src\stream_seg.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -61,6 +52,21 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="git\src\suppitem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="git\src\filter-crop.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="git\src\filter-dummy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="git\src\filter-lzss.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="git\src\filter-lzw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="git\src\filter-pad.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -80,16 +86,10 @@
     <ClInclude Include="git\include\camoto\filter.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="git\include\camoto\filter_dummy.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="git\include\camoto\iff.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="git\include\camoto\iostream_helpers.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="git\include\camoto\lzw.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="git\include\camoto\metadata.hpp">
@@ -102,9 +102,6 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="git\include\camoto\stream_filtered.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="git\include\camoto\stream_memory.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="git\include\camoto\stream_seg.hpp">
@@ -120,6 +117,24 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="git\include\camoto\util.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="git\include\camoto\filter-crop.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="git\include\camoto\filter-dummy.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="git\include\camoto\filter-lzss.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="git\include\camoto\filter-lzw.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="git\include\camoto\filter-pad.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="git\include\camoto\formatenum.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

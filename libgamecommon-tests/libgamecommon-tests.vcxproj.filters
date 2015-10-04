@@ -27,9 +27,6 @@
     <ClCompile Include="..\libgamecommon\git\tests\test-iostream_helpers.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\libgamecommon\git\tests\test-lzw.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\libgamecommon\git\tests\tests.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -49,6 +46,21 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\libgamecommon\git\tests\test-stream_sub.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libgamecommon\git\tests\test-filter-crop.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libgamecommon\git\tests\test-filter-lzss.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libgamecommon\git\tests\test-filter-lzw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libgamecommon\git\tests\test-filter-pad.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libgamecommon\git\tests\test-util.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

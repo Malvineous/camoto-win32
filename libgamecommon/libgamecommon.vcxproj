@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
       <Configuration>Debug</Configuration>
@@ -27,26 +27,26 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v120_xp</PlatformToolset>
+    <PlatformToolset>v140_xp</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v120_xp</PlatformToolset>
+    <PlatformToolset>v140_xp</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v120_xp</PlatformToolset>
+    <PlatformToolset>v140_xp</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v120_xp</PlatformToolset>
+    <PlatformToolset>v140_xp</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
@@ -151,16 +151,18 @@
   <ItemGroup>
     <ClCompile Include="git\src\bitstream.cpp" />
     <ClCompile Include="git\src\error.cpp" />
+    <ClCompile Include="git\src\filter-crop.cpp" />
+    <ClCompile Include="git\src\filter-dummy.cpp" />
+    <ClCompile Include="git\src\filter-lzss.cpp" />
+    <ClCompile Include="git\src\filter-lzw.cpp" />
+    <ClCompile Include="git\src\filter-pad.cpp" />
     <ClCompile Include="git\src\filter.cpp" />
-    <ClCompile Include="git\src\filter_dummy.cpp" />
     <ClCompile Include="git\src\iff.cpp" />
     <ClCompile Include="git\src\iostream_helpers.cpp" />
-    <ClCompile Include="git\src\lzw.cpp" />
     <ClCompile Include="git\src\metadata.cpp" />
     <ClCompile Include="git\src\stream.cpp" />
     <ClCompile Include="git\src\stream_file.cpp" />
     <ClCompile Include="git\src\stream_filtered.cpp" />
-    <ClCompile Include="git\src\stream_memory.cpp" />
     <ClCompile Include="git\src\stream_seg.cpp" />
     <ClCompile Include="git\src\stream_string.cpp" />
     <ClCompile Include="git\src\stream_sub.cpp" />
@@ -171,16 +173,19 @@
     <ClInclude Include="git\include\camoto\byteorder.hpp" />
     <ClInclude Include="git\include\camoto\debug.hpp" />
     <ClInclude Include="git\include\camoto\error.hpp" />
+    <ClInclude Include="git\include\camoto\filter-crop.hpp" />
+    <ClInclude Include="git\include\camoto\filter-dummy.hpp" />
+    <ClInclude Include="git\include\camoto\filter-lzss.hpp" />
+    <ClInclude Include="git\include\camoto\filter-lzw.hpp" />
+    <ClInclude Include="git\include\camoto\filter-pad.hpp" />
     <ClInclude Include="git\include\camoto\filter.hpp" />
-    <ClInclude Include="git\include\camoto\filter_dummy.hpp" />
+    <ClInclude Include="git\include\camoto\formatenum.hpp" />
     <ClInclude Include="git\include\camoto\iff.hpp" />
     <ClInclude Include="git\include\camoto\iostream_helpers.hpp" />
-    <ClInclude Include="git\include\camoto\lzw.hpp" />
     <ClInclude Include="git\include\camoto\metadata.hpp" />
     <ClInclude Include="git\include\camoto\stream.hpp" />
     <ClInclude Include="git\include\camoto\stream_file.hpp" />
     <ClInclude Include="git\include\camoto\stream_filtered.hpp" />
-    <ClInclude Include="git\include\camoto\stream_memory.hpp" />
     <ClInclude Include="git\include\camoto\stream_seg.hpp" />
     <ClInclude Include="git\include\camoto\stream_string.hpp" />
     <ClInclude Include="git\include\camoto\stream_sub.hpp" />
@@ -192,12 +197,12 @@
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
-    <Import Project="..\packages\boost.1.57.0.0\build\native\boost.targets" Condition="Exists('..\packages\boost.1.57.0.0\build\native\boost.targets')" />
+    <Import Project="..\packages\boost.1.59.0.0\build\native\boost.targets" Condition="Exists('..\packages\boost.1.59.0.0\build\native\boost.targets')" />
   </ImportGroup>
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
       <ErrorText>This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
     </PropertyGroup>
-    <Error Condition="!Exists('..\packages\boost.1.57.0.0\build\native\boost.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\boost.1.57.0.0\build\native\boost.targets'))" />
+    <Error Condition="!Exists('..\packages\boost.1.59.0.0\build\native\boost.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\boost.1.59.0.0\build\native\boost.targets'))" />
   </Target>
 </Project>
