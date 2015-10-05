@@ -10,7 +10,7 @@
       <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;DLL_EXPORT=_declspec(dllexport);BOOST_ALL_DYN_LINK;USE_PORTAUDIO;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>
       </SDLCheck>
-      <DisableSpecificWarnings>4018;4244;4250;4251;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <DisableSpecificWarnings>4018;4244;4250;4251;4275;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
       <MinimalRebuild>false</MinimalRebuild>
       <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
