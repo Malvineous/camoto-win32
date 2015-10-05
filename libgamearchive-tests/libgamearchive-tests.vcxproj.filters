@@ -159,6 +159,24 @@
     <ClCompile Include="..\libgamearchive\git\src\filter-zone66.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\libgamearchive\git\tests\test-fmt-dat-hocus.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libgamearchive\git\tests\test-fmt-gd-doofus.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libgamearchive\git\tests\test-filter-prehistorik.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libgamearchive\git\tests\test-fmt-bpa-drally.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libgamearchive\git\tests\test-fmt-cur-prehistorik.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libgamearchive\git\tests\test-fmt-dat-riptide.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\libgamearchive\git\tests\test-archive.hpp">

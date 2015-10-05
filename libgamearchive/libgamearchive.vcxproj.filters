@@ -18,9 +18,6 @@
     <ClCompile Include="git\src\archive.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="git\src\fatarchive.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="git\src\filter-bash.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -162,11 +159,29 @@
     <ClCompile Include="git\src\util.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="git\src\archive-fat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="git\src\filter-prehistorik.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="git\src\fmt-bpa-drally.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="git\src\fmt-cur-prehistorik.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="git\src\fmt-dat-riptide.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="git\src\fmt-mni-czone.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="git\src\stream_archfile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="git\src\fatarchive.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="git\src\filter-bash.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -318,6 +333,27 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="git\include\camoto\gamearchive\util.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="git\src\filter-prehistorik.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="git\src\fmt-bpa-drally.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="git\src\fmt-cur-prehistorik.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="git\src\fmt-dat-riptide.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="git\src\fmt-mni-czone.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="git\src\stream_archfile.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="git\include\camoto\gamearchive\archive-fat.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
       <Configuration>Debug</Configuration>
@@ -27,26 +27,26 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v120_xp</PlatformToolset>
+    <PlatformToolset>v140_xp</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v120_xp</PlatformToolset>
+    <PlatformToolset>v140_xp</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v120_xp</PlatformToolset>
+    <PlatformToolset>v140_xp</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v120_xp</PlatformToolset>
+    <PlatformToolset>v140_xp</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
@@ -149,8 +149,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="git\src\archive-fat.cpp" />
     <ClCompile Include="git\src\archive.cpp" />
-    <ClCompile Include="git\src\fatarchive.cpp" />
     <ClCompile Include="git\src\filter-bash-rle.cpp" />
     <ClCompile Include="git\src\filter-bash.cpp" />
     <ClCompile Include="git\src\filter-bitswap.cpp" />
@@ -158,6 +158,7 @@
     <ClCompile Include="git\src\filter-epfs.cpp" />
     <ClCompile Include="git\src\filter-glb-raptor.cpp" />
     <ClCompile Include="git\src\filter-got-lzss.cpp" />
+    <ClCompile Include="git\src\filter-prehistorik.cpp" />
     <ClCompile Include="git\src\filter-skyroads.cpp" />
     <ClCompile Include="git\src\filter-stargunner.cpp" />
     <ClCompile Include="git\src\filter-stellar7.cpp" />
@@ -167,6 +168,8 @@
     <ClCompile Include="git\src\filter-zone66.cpp" />
     <ClCompile Include="git\src\fixedarchive.cpp" />
     <ClCompile Include="git\src\fmt-bnk-harry.cpp" />
+    <ClCompile Include="git\src\fmt-bpa-drally.cpp" />
+    <ClCompile Include="git\src\fmt-cur-prehistorik.cpp" />
     <ClCompile Include="git\src\fmt-da-levels.cpp" />
     <ClCompile Include="git\src\fmt-dat-bash.cpp" />
     <ClCompile Include="git\src\fmt-dat-got.cpp" />
@@ -175,6 +178,7 @@
     <ClCompile Include="git\src\fmt-dat-hugo.cpp" />
     <ClCompile Include="git\src\fmt-dat-lostvikings.cpp" />
     <ClCompile Include="git\src\fmt-dat-mystic.cpp" />
+    <ClCompile Include="git\src\fmt-dat-riptide.cpp" />
     <ClCompile Include="git\src\fmt-dat-sango.cpp" />
     <ClCompile Include="git\src\fmt-dat-wacky.cpp" />
     <ClCompile Include="git\src\fmt-dlt-stargunner.cpp" />
@@ -187,6 +191,7 @@
     <ClCompile Include="git\src\fmt-hog-descent.cpp" />
     <ClCompile Include="git\src\fmt-lbr-vinyl.cpp" />
     <ClCompile Include="git\src\fmt-lib-mythos.cpp" />
+    <ClCompile Include="git\src\fmt-mni-czone.cpp" />
     <ClCompile Include="git\src\fmt-pcxlib.cpp" />
     <ClCompile Include="git\src\fmt-pod-tv.cpp" />
     <ClCompile Include="git\src\fmt-res-stellar7.cpp" />
@@ -197,17 +202,18 @@
     <ClCompile Include="git\src\fmt-vol-cosmo.cpp" />
     <ClCompile Include="git\src\fmt-wad-doom.cpp" />
     <ClCompile Include="git\src\main.cpp" />
+    <ClCompile Include="git\src\stream_archfile.cpp" />
     <ClCompile Include="git\src\util.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="git\include\camoto\gamearchive.hpp" />
+    <ClInclude Include="git\include\camoto\gamearchive\archive-fat.hpp" />
     <ClInclude Include="git\include\camoto\gamearchive\archive.hpp" />
     <ClInclude Include="git\include\camoto\gamearchive\archivetype.hpp" />
     <ClInclude Include="git\include\camoto\gamearchive\filtertype.hpp" />
     <ClInclude Include="git\include\camoto\gamearchive\fixedarchive.hpp" />
     <ClInclude Include="git\include\camoto\gamearchive\manager.hpp" />
     <ClInclude Include="git\include\camoto\gamearchive\util.hpp" />
-    <ClInclude Include="git\src\fatarchive.hpp" />
     <ClInclude Include="git\src\filter-bash-rle.hpp" />
     <ClInclude Include="git\src\filter-bash.hpp" />
     <ClInclude Include="git\src\filter-bitswap.hpp" />
@@ -215,6 +221,7 @@
     <ClInclude Include="git\src\filter-epfs.hpp" />
     <ClInclude Include="git\src\filter-glb-raptor.hpp" />
     <ClInclude Include="git\src\filter-got-lzss.hpp" />
+    <ClInclude Include="git\src\filter-prehistorik.hpp" />
     <ClInclude Include="git\src\filter-skyroads.hpp" />
     <ClInclude Include="git\src\filter-stargunner.hpp" />
     <ClInclude Include="git\src\filter-stellar7.hpp" />
@@ -223,6 +230,8 @@
     <ClInclude Include="git\src\filter-xor.hpp" />
     <ClInclude Include="git\src\filter-zone66.hpp" />
     <ClInclude Include="git\src\fmt-bnk-harry.hpp" />
+    <ClInclude Include="git\src\fmt-bpa-drally.hpp" />
+    <ClInclude Include="git\src\fmt-cur-prehistorik.hpp" />
     <ClInclude Include="git\src\fmt-da-levels.hpp" />
     <ClInclude Include="git\src\fmt-dat-bash.hpp" />
     <ClInclude Include="git\src\fmt-dat-got.hpp" />
@@ -231,6 +240,7 @@
     <ClInclude Include="git\src\fmt-dat-hugo.hpp" />
     <ClInclude Include="git\src\fmt-dat-lostvikings.hpp" />
     <ClInclude Include="git\src\fmt-dat-mystic.hpp" />
+    <ClInclude Include="git\src\fmt-dat-riptide.hpp" />
     <ClInclude Include="git\src\fmt-dat-sango.hpp" />
     <ClInclude Include="git\src\fmt-dat-wacky.hpp" />
     <ClInclude Include="git\src\fmt-dlt-stargunner.hpp" />
@@ -243,6 +253,7 @@
     <ClInclude Include="git\src\fmt-hog-descent.hpp" />
     <ClInclude Include="git\src\fmt-lbr-vinyl.hpp" />
     <ClInclude Include="git\src\fmt-lib-mythos.hpp" />
+    <ClInclude Include="git\src\fmt-mni-czone.hpp" />
     <ClInclude Include="git\src\fmt-pcxlib.hpp" />
     <ClInclude Include="git\src\fmt-pod-tv.hpp" />
     <ClInclude Include="git\src\fmt-res-stellar7.hpp" />
@@ -252,6 +263,7 @@
     <ClInclude Include="git\src\fmt-roads-skyroads.hpp" />
     <ClInclude Include="git\src\fmt-vol-cosmo.hpp" />
     <ClInclude Include="git\src\fmt-wad-doom.hpp" />
+    <ClInclude Include="git\src\stream_archfile.hpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\libgamecommon\libgamecommon.vcxproj">
@@ -263,16 +275,16 @@
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
-    <Import Project="..\packages\boost.1.57.0.0\build\native\boost.targets" Condition="Exists('..\packages\boost.1.57.0.0\build\native\boost.targets')" />
-    <Import Project="..\packages\boost_filesystem-vc120.1.57.0.0\build\native\boost_filesystem-vc120.targets" Condition="Exists('..\packages\boost_filesystem-vc120.1.57.0.0\build\native\boost_filesystem-vc120.targets')" />
-    <Import Project="..\packages\boost_system-vc120.1.57.0.0\build\native\boost_system-vc120.targets" Condition="Exists('..\packages\boost_system-vc120.1.57.0.0\build\native\boost_system-vc120.targets')" />
+    <Import Project="..\packages\boost.1.59.0.0\build\native\boost.targets" Condition="Exists('..\packages\boost.1.59.0.0\build\native\boost.targets')" />
+    <Import Project="..\packages\boost_filesystem-vc140.1.59.0.0\build\native\boost_filesystem-vc140.targets" Condition="Exists('..\packages\boost_filesystem-vc140.1.59.0.0\build\native\boost_filesystem-vc140.targets')" />
+    <Import Project="..\packages\boost_system-vc140.1.59.0.0\build\native\boost_system-vc140.targets" Condition="Exists('..\packages\boost_system-vc140.1.59.0.0\build\native\boost_system-vc140.targets')" />
   </ImportGroup>
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
       <ErrorText>This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
     </PropertyGroup>
-    <Error Condition="!Exists('..\packages\boost.1.57.0.0\build\native\boost.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\boost.1.57.0.0\build\native\boost.targets'))" />
-    <Error Condition="!Exists('..\packages\boost_filesystem-vc120.1.57.0.0\build\native\boost_filesystem-vc120.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\boost_filesystem-vc120.1.57.0.0\build\native\boost_filesystem-vc120.targets'))" />
-    <Error Condition="!Exists('..\packages\boost_system-vc120.1.57.0.0\build\native\boost_system-vc120.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\boost_system-vc120.1.57.0.0\build\native\boost_system-vc120.targets'))" />
+    <Error Condition="!Exists('..\packages\boost.1.59.0.0\build\native\boost.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\boost.1.59.0.0\build\native\boost.targets'))" />
+    <Error Condition="!Exists('..\packages\boost_filesystem-vc140.1.59.0.0\build\native\boost_filesystem-vc140.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\boost_filesystem-vc140.1.59.0.0\build\native\boost_filesystem-vc140.targets'))" />
+    <Error Condition="!Exists('..\packages\boost_system-vc140.1.59.0.0\build\native\boost_system-vc140.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\boost_system-vc140.1.59.0.0\build\native\boost_system-vc140.targets'))" />
   </Target>
 </Project>

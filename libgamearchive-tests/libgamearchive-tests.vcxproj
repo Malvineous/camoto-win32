@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
       <Configuration>Debug</Configuration>
@@ -27,26 +27,26 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v120_xp</PlatformToolset>
+    <PlatformToolset>v140_xp</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v120_xp</PlatformToolset>
+    <PlatformToolset>v140_xp</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v120_xp</PlatformToolset>
+    <PlatformToolset>v140_xp</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v120_xp</PlatformToolset>
+    <PlatformToolset>v140_xp</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
@@ -164,23 +164,29 @@
     <ClCompile Include="..\libgamearchive\git\tests\test-filter-ddave-rle.cpp" />
     <ClCompile Include="..\libgamearchive\git\tests\test-filter-glb-raptor.cpp" />
     <ClCompile Include="..\libgamearchive\git\tests\test-filter-got-lzss.cpp" />
+    <ClCompile Include="..\libgamearchive\git\tests\test-filter-prehistorik.cpp" />
     <ClCompile Include="..\libgamearchive\git\tests\test-filter-sam.cpp" />
     <ClCompile Include="..\libgamearchive\git\tests\test-filter-xor-blood.cpp" />
     <ClCompile Include="..\libgamearchive\git\tests\test-filter-xor.cpp" />
     <ClCompile Include="..\libgamearchive\git\tests\test-filter-zone66.cpp" />
     <ClCompile Include="..\libgamearchive\git\tests\test-filter.cpp" />
     <ClCompile Include="..\libgamearchive\git\tests\test-fmt-bnk-harry.cpp" />
+    <ClCompile Include="..\libgamearchive\git\tests\test-fmt-bpa-drally.cpp" />
+    <ClCompile Include="..\libgamearchive\git\tests\test-fmt-cur-prehistorik.cpp" />
     <ClCompile Include="..\libgamearchive\git\tests\test-fmt-dat-bash-compressed.cpp" />
     <ClCompile Include="..\libgamearchive\git\tests\test-fmt-dat-bash.cpp" />
     <ClCompile Include="..\libgamearchive\git\tests\test-fmt-dat-got.cpp" />
     <ClCompile Include="..\libgamearchive\git\tests\test-fmt-dat-highway.cpp" />
+    <ClCompile Include="..\libgamearchive\git\tests\test-fmt-dat-hocus.cpp" />
     <ClCompile Include="..\libgamearchive\git\tests\test-fmt-dat-hugo.cpp" />
     <ClCompile Include="..\libgamearchive\git\tests\test-fmt-dat-lostvikings.cpp" />
     <ClCompile Include="..\libgamearchive\git\tests\test-fmt-dat-mystic.cpp" />
+    <ClCompile Include="..\libgamearchive\git\tests\test-fmt-dat-riptide.cpp" />
     <ClCompile Include="..\libgamearchive\git\tests\test-fmt-dat-sango.cpp" />
     <ClCompile Include="..\libgamearchive\git\tests\test-fmt-dat-wacky.cpp" />
     <ClCompile Include="..\libgamearchive\git\tests\test-fmt-dlt-stargunner.cpp" />
     <ClCompile Include="..\libgamearchive\git\tests\test-fmt-epf-lionking.cpp" />
+    <ClCompile Include="..\libgamearchive\git\tests\test-fmt-gd-doofus.cpp" />
     <ClCompile Include="..\libgamearchive\git\tests\test-fmt-glb-raptor.cpp" />
     <ClCompile Include="..\libgamearchive\git\tests\test-fmt-grp-duke3d.cpp" />
     <ClCompile Include="..\libgamearchive\git\tests\test-fmt-hog-descent.cpp" />
@@ -216,14 +222,14 @@
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
-    <Import Project="..\packages\boost.1.57.0.0\build\native\boost.targets" Condition="Exists('..\packages\boost.1.57.0.0\build\native\boost.targets')" />
-    <Import Project="..\packages\boost_unit_test_framework-vc120.1.57.0.0\build\native\boost_unit_test_framework-vc120.targets" Condition="Exists('..\packages\boost_unit_test_framework-vc120.1.57.0.0\build\native\boost_unit_test_framework-vc120.targets')" />
+    <Import Project="..\packages\boost.1.59.0.0\build\native\boost.targets" Condition="Exists('..\packages\boost.1.59.0.0\build\native\boost.targets')" />
+    <Import Project="..\packages\boost_unit_test_framework-vc140.1.59.0.0\build\native\boost_unit_test_framework-vc140.targets" Condition="Exists('..\packages\boost_unit_test_framework-vc140.1.59.0.0\build\native\boost_unit_test_framework-vc140.targets')" />
   </ImportGroup>
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
       <ErrorText>This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
     </PropertyGroup>
-    <Error Condition="!Exists('..\packages\boost.1.57.0.0\build\native\boost.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\boost.1.57.0.0\build\native\boost.targets'))" />
-    <Error Condition="!Exists('..\packages\boost_unit_test_framework-vc120.1.57.0.0\build\native\boost_unit_test_framework-vc120.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\boost_unit_test_framework-vc120.1.57.0.0\build\native\boost_unit_test_framework-vc120.targets'))" />
+    <Error Condition="!Exists('..\packages\boost.1.59.0.0\build\native\boost.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\boost.1.59.0.0\build\native\boost.targets'))" />
+    <Error Condition="!Exists('..\packages\boost_unit_test_framework-vc140.1.59.0.0\build\native\boost_unit_test_framework-vc140.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\boost_unit_test_framework-vc140.1.59.0.0\build\native\boost_unit_test_framework-vc140.targets'))" />
   </Target>
 </Project>
