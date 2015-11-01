@@ -90,7 +90,7 @@
       </PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;LIBGAMEARCHIVE_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>CAMOTO_GAMEARCHIVE_API=DLL_EXPORT;WIN32;_DEBUG;_WINDOWS;_USRDLL;LIBGAMEARCHIVE_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
     </ClCompile>
     <Link>
@@ -155,6 +155,7 @@
     <ClCompile Include="git\src\filter-bash.cpp" />
     <ClCompile Include="git\src\filter-bitswap.cpp" />
     <ClCompile Include="git\src\filter-ddave-rle.cpp" />
+    <ClCompile Include="git\src\filter-decomp-size.cpp" />
     <ClCompile Include="git\src\filter-epfs.cpp" />
     <ClCompile Include="git\src\filter-glb-raptor.cpp" />
     <ClCompile Include="git\src\filter-got-lzss.cpp" />
@@ -213,11 +214,13 @@
     <ClInclude Include="git\include\camoto\gamearchive\filtertype.hpp" />
     <ClInclude Include="git\include\camoto\gamearchive\fixedarchive.hpp" />
     <ClInclude Include="git\include\camoto\gamearchive\manager.hpp" />
+    <ClInclude Include="git\include\camoto\gamearchive\stream_archfile.hpp" />
     <ClInclude Include="git\include\camoto\gamearchive\util.hpp" />
     <ClInclude Include="git\src\filter-bash-rle.hpp" />
     <ClInclude Include="git\src\filter-bash.hpp" />
     <ClInclude Include="git\src\filter-bitswap.hpp" />
     <ClInclude Include="git\src\filter-ddave-rle.hpp" />
+    <ClInclude Include="git\src\filter-decomp-size.hpp" />
     <ClInclude Include="git\src\filter-epfs.hpp" />
     <ClInclude Include="git\src\filter-glb-raptor.hpp" />
     <ClInclude Include="git\src\filter-got-lzss.hpp" />
@@ -263,7 +266,6 @@
     <ClInclude Include="git\src\fmt-roads-skyroads.hpp" />
     <ClInclude Include="git\src\fmt-vol-cosmo.hpp" />
     <ClInclude Include="git\src\fmt-wad-doom.hpp" />
-    <ClInclude Include="git\src\stream_archfile.hpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\libgamecommon\libgamecommon.vcxproj">

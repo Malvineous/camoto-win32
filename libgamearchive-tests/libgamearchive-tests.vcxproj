@@ -152,6 +152,7 @@
     <ClCompile Include="..\libgamearchive\git\src\filter-bash-rle.cpp" />
     <ClCompile Include="..\libgamearchive\git\src\filter-bitswap.cpp" />
     <ClCompile Include="..\libgamearchive\git\src\filter-ddave-rle.cpp" />
+    <ClCompile Include="..\libgamearchive\git\src\filter-decomp-size.cpp" />
     <ClCompile Include="..\libgamearchive\git\src\filter-glb-raptor.cpp" />
     <ClCompile Include="..\libgamearchive\git\src\filter-got-lzss.cpp" />
     <ClCompile Include="..\libgamearchive\git\src\filter-xor-blood.cpp" />
@@ -162,6 +163,7 @@
     <ClCompile Include="..\libgamearchive\git\tests\test-filter-bash-rle.cpp" />
     <ClCompile Include="..\libgamearchive\git\tests\test-filter-bitswap.cpp" />
     <ClCompile Include="..\libgamearchive\git\tests\test-filter-ddave-rle.cpp" />
+    <ClCompile Include="..\libgamearchive\git\tests\test-filter-decomp-size.cpp" />
     <ClCompile Include="..\libgamearchive\git\tests\test-filter-glb-raptor.cpp" />
     <ClCompile Include="..\libgamearchive\git\tests\test-filter-got-lzss.cpp" />
     <ClCompile Include="..\libgamearchive\git\tests\test-filter-prehistorik.cpp" />

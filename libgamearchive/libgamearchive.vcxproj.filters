@@ -180,6 +180,9 @@
     <ClCompile Include="git\src\stream_archfile.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="git\src\filter-decomp-size.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="git\src\filter-bash.hpp">
@@ -350,10 +353,13 @@
     <ClInclude Include="git\src\fmt-mni-czone.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="git\src\stream_archfile.hpp">
+    <ClInclude Include="git\include\camoto\gamearchive\archive-fat.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="git\include\camoto\gamearchive\archive-fat.hpp">
+    <ClInclude Include="git\src\filter-decomp-size.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="git\include\camoto\gamearchive\stream_archfile.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

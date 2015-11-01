@@ -162,6 +162,9 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\libgamearchive\git\examples\common-attributes.hpp" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
     <Import Project="..\packages\boost.1.59.0.0\build\native\boost.targets" Condition="Exists('..\packages\boost.1.59.0.0\build\native\boost.targets')" />

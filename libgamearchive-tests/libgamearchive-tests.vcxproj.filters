@@ -177,6 +177,12 @@
     <ClCompile Include="..\libgamearchive\git\tests\test-fmt-dat-riptide.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\libgamearchive\git\tests\test-filter-decomp-size.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libgamearchive\git\src\filter-decomp-size.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\libgamearchive\git\tests\test-archive.hpp">
