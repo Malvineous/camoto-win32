@@ -30,9 +30,6 @@
     <ClCompile Include="git\src\iostream_helpers.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="git\src\metadata.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="git\src\stream.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -69,6 +66,9 @@
     <ClCompile Include="git\src\filter-pad.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="git\src\attribute.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="git\include\camoto\bitstream.hpp">
@@ -90,9 +90,6 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="git\include\camoto\iostream_helpers.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="git\include\camoto\metadata.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="git\include\camoto\stream.hpp">
@@ -135,6 +132,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="git\include\camoto\formatenum.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="git\include\camoto\attribute.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="git\include\camoto\config.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

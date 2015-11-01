@@ -90,7 +90,7 @@
       </PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;LIBGAMECOMMON_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>CAMOTO_GAMECOMMON_API=DLL_EXPORT;WIN32;_DEBUG;_WINDOWS;_USRDLL;LIBGAMECOMMON_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
     </ClCompile>
     <Link>
@@ -149,6 +149,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="git\src\attribute.cpp" />
     <ClCompile Include="git\src\bitstream.cpp" />
     <ClCompile Include="git\src\error.cpp" />
     <ClCompile Include="git\src\filter-crop.cpp" />
@@ -159,7 +160,6 @@
     <ClCompile Include="git\src\filter.cpp" />
     <ClCompile Include="git\src\iff.cpp" />
     <ClCompile Include="git\src\iostream_helpers.cpp" />
-    <ClCompile Include="git\src\metadata.cpp" />
     <ClCompile Include="git\src\stream.cpp" />
     <ClCompile Include="git\src\stream_file.cpp" />
     <ClCompile Include="git\src\stream_filtered.cpp" />
@@ -169,8 +169,10 @@
     <ClCompile Include="git\src\suppitem.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="git\include\camoto\attribute.hpp" />
     <ClInclude Include="git\include\camoto\bitstream.hpp" />
     <ClInclude Include="git\include\camoto\byteorder.hpp" />
+    <ClInclude Include="git\include\camoto\config.hpp" />
     <ClInclude Include="git\include\camoto\debug.hpp" />
     <ClInclude Include="git\include\camoto\error.hpp" />
     <ClInclude Include="git\include\camoto\filter-crop.hpp" />
@@ -182,7 +184,6 @@
     <ClInclude Include="git\include\camoto\formatenum.hpp" />
     <ClInclude Include="git\include\camoto\iff.hpp" />
     <ClInclude Include="git\include\camoto\iostream_helpers.hpp" />
-    <ClInclude Include="git\include\camoto\metadata.hpp" />
     <ClInclude Include="git\include\camoto\stream.hpp" />
     <ClInclude Include="git\include\camoto\stream_file.hpp" />
     <ClInclude Include="git\include\camoto\stream_filtered.hpp" />
