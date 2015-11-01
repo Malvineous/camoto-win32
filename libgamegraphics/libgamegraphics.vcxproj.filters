@@ -15,192 +15,40 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="git\src\baseimage.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="git\src\basetileset.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="git\src\filter-ccomic.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="git\src\filter-ccomic2.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="git\src\filter-pad.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="git\src\img-bash-sprite.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="git\src\img-ccomic.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="git\src\img-cga.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="git\src\img-ddave.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="git\src\img-ega-byteplanar.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="git\src\img-ega-byteplanar-tiled.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="git\src\img-ega-planar.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="git\src\img-ega-rowplanar.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="git\src\img-mono.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="git\src\img-nukem2.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="git\src\img-palette.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="git\src\img-pcx.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="git\src\img-pic-raptor.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="git\src\img-scr-vinyl.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="git\src\img-tv-fog.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="git\src\img-vga.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="git\src\img-vga-planar.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="git\src\img-vga-raw.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="git\src\img-vga-raw-planar.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="git\src\img-zone66_tile.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="git\src\main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="git\src\palettetable.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="git\src\pal-gmf-harry.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="git\src\pal-vga-raw.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="git\src\subimage.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="git\src\tileset-fat.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="git\src\tilesetFromImages.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="git\src\tilesetFromList.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="git\src\tls-actrinfo.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="git\src\tls-bash.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="git\src\tls-bash-sprite.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="git\src\tls-catacomb.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="git\src\tls-ccaves-main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="git\src\tls-ccaves-sub.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="git\src\tls-ccomic.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="git\src\tls-ccomic2.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="git\src\tls-cosmo.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="git\src\tls-czone.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="git\src\tls-ddave.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="git\src\tls-ega-apogee.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="git\src\tls-got.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="git\src\tls-harry-chr.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="git\src\tls-harry-hsb.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="git\src\tls-harry-ico.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="git\src\tls-hocus.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="git\src\tls-img.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="git\src\tls-jill.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="git\src\tls-sagent.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="git\src\tls-stryker.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="git\src\tls-vinyl.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="git\src\tls-wacky.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="git\src\tls-wordresc.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="git\src\tls-zone66.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="git\src\tls-zone66-map.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="git\src\img-ega-backdrop.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="git\src\baseimage.hpp">
+    <ClInclude Include="git\include\camoto\gamegraphics\image.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="git\src\basetileset.hpp">
+    <ClInclude Include="git\include\camoto\gamegraphics\image-memory.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="git\include\camoto\gamegraphics\imagetype.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="git\include\camoto\gamegraphics\manager.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="git\include\camoto\gamegraphics\palette.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="git\include\camoto\gamegraphics\tileset.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="git\include\camoto\gamegraphics\tileset-from_image_list.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="git\include\camoto\gamegraphics\tilesettype.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="git\include\camoto\gamegraphics\util.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="git\include\camoto\gamegraphics.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="git\src\filter-block-pad.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="git\src\filter-ccomic.hpp">
@@ -209,7 +57,13 @@
     <ClInclude Include="git\src\filter-ccomic2.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="git\src\filter-pad.hpp">
+    <ClInclude Include="git\src\filter-vinyl-tileset.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="git\src\image-from_tileset.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="git\src\image-sub.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="git\src\img-bash-sprite.hpp">
@@ -218,19 +72,19 @@
     <ClInclude Include="git\src\img-ccomic.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="git\src\img-cga.hpp">
+    <ClInclude Include="git\src\img-ddave.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="git\src\img-ddave.hpp">
+    <ClInclude Include="git\src\img-ega.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="git\src\img-ega-backdrop.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="git\src\img-ega-byteplanar.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="git\src\img-ega-byteplanar-tiled.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="git\src\img-ega-common.hpp">
+    <ClInclude Include="git\src\img-ega-linear.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="git\src\img-ega-planar.hpp">
@@ -281,13 +135,10 @@
     <ClInclude Include="git\src\pal-vga-raw.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="git\src\subimage.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="git\src\tileset-fat.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="git\src\tilesetFromList.hpp">
+    <ClInclude Include="git\src\tileset-fat-fixed_tile_size.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="git\src\tls-actrinfo.hpp">
@@ -317,9 +168,6 @@
     <ClInclude Include="git\src\tls-cosmo.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="git\src\tls-czone.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="git\src\tls-ddave.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -339,9 +187,6 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="git\src\tls-hocus.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="git\src\tls-img.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="git\src\tls-jill.hpp">
@@ -368,32 +213,193 @@
     <ClInclude Include="git\src\tls-zone66-map.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="git\include\camoto\gamegraphics.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="git\include\camoto\gamegraphics\image.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="git\include\camoto\gamegraphics\imagetype.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="git\include\camoto\gamegraphics\manager.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="git\include\camoto\gamegraphics\palettetable.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="git\include\camoto\gamegraphics\tileset.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="git\include\camoto\gamegraphics\tilesettype.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="git\src\img-ega-backdrop.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
+    <ClCompile Include="git\src\filter-block-pad.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="git\src\filter-ccomic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="git\src\filter-ccomic2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="git\src\filter-vinyl-tileset.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="git\src\image.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="git\src\image-from_tileset.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="git\src\image-memory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="git\src\image-sub.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="git\src\img-bash-sprite.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="git\src\img-ccomic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="git\src\img-ddave.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="git\src\img-ega.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="git\src\img-ega-backdrop.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="git\src\img-ega-byteplanar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="git\src\img-ega-linear.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="git\src\img-ega-planar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="git\src\img-ega-rowplanar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="git\src\img-mono.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="git\src\img-nukem2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="git\src\img-palette.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="git\src\img-pcx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="git\src\img-pic-raptor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="git\src\img-scr-vinyl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="git\src\img-tv-fog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="git\src\img-vga.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="git\src\img-vga-planar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="git\src\img-vga-raw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="git\src\img-vga-raw-planar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="git\src\img-zone66_tile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="git\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="git\src\palette.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="git\src\pal-gmf-harry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="git\src\pal-vga-raw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="git\src\tileset.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="git\src\tileset-fat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="git\src\tileset-fat-fixed_tile_size.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="git\src\tileset-from_image_list.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="git\src\tls-actrinfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="git\src\tls-bash.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="git\src\tls-bash-sprite.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="git\src\tls-catacomb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="git\src\tls-ccaves-main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="git\src\tls-ccaves-sub.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="git\src\tls-ccomic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="git\src\tls-ccomic2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="git\src\tls-cosmo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="git\src\tls-ddave.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="git\src\tls-ega-apogee.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="git\src\tls-got.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="git\src\tls-harry-chr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="git\src\tls-harry-hsb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="git\src\tls-harry-ico.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="git\src\tls-hocus.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="git\src\tls-jill.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="git\src\tls-sagent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="git\src\tls-stryker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="git\src\tls-vinyl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="git\src\tls-wacky.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="git\src\tls-wordresc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="git\src\tls-zone66.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="git\src\tls-zone66-map.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="git\src\util.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

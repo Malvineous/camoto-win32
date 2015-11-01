@@ -15,6 +15,12 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\libgamegraphics\git\tests\test-archive.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="..\libgamegraphics\git\tests\test-filter.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -27,19 +33,37 @@
     <ClCompile Include="..\libgamegraphics\git\tests\test-filter-pad.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\libgamegraphics\git\tests\test-image.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libgamegraphics\git\tests\test-image-from_tileset.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="..\libgamegraphics\git\tests\test-img-bash-sprite.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\libgamegraphics\git\tests\test-img-ccomic.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\libgamegraphics\git\tests\test-img-ddave.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libgamegraphics\git\tests\test-img-ega-backdrop.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="..\libgamegraphics\git\tests\test-img-ega-byteplanar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libgamegraphics\git\tests\test-img-ega-linear.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\libgamegraphics\git\tests\test-img-ega-planar.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\libgamegraphics\git\tests\test-img-ega-rowplanar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libgamegraphics\git\tests\test-img-nukem2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\libgamegraphics\git\tests\test-img-pcx-1b4p.cpp">
@@ -51,6 +75,15 @@
     <ClCompile Include="..\libgamegraphics\git\tests\test-img-pic-raptor.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\libgamegraphics\git\tests\test-img-tv-fog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libgamegraphics\git\tests\test-img-vga.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libgamegraphics\git\tests\test-img-vga-planar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="..\libgamegraphics\git\tests\test-img-zone66_tile.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -60,19 +93,55 @@
     <ClCompile Include="..\libgamegraphics\git\tests\test-pal-vga-raw.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\libgamegraphics\git\tests\test-pal-vga-raw8.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="..\libgamegraphics\git\tests\tests.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\libgamegraphics\git\tests\test-subimage.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\libgamegraphics\git\tests\test-tileset.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libgamegraphics\git\tests\test-tileset-from_image_list.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libgamegraphics\git\tests\test-tls-actrinfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libgamegraphics\git\tests\test-tls-bash.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="..\libgamegraphics\git\tests\test-tls-bash-sprite.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libgamegraphics\git\tests\test-tls-catacomb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libgamegraphics\git\tests\test-tls-ccaves-main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\libgamegraphics\git\tests\test-tls-ccaves-sub.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\libgamegraphics\git\tests\test-tls-ccomic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libgamegraphics\git\tests\test-tls-ccomic2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libgamegraphics\git\tests\test-tls-cosmo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="..\libgamegraphics\git\tests\test-tls-ddave.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libgamegraphics\git\tests\test-tls-got.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libgamegraphics\git\tests\test-tls-harry-chr.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\libgamegraphics\git\tests\test-tls-harry-hsb.cpp">
@@ -81,21 +150,27 @@
     <ClCompile Include="..\libgamegraphics\git\tests\test-tls-harry-ico.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\libgamegraphics\git\tests\test-tls-stryker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="..\libgamegraphics\git\tests\test-tls-vinyl.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\libgamegraphics\git\tests\test-tls-zone66.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\libgamegraphics\git\tests\test-tls-zone66-map.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\libgamegraphics\git\tests\test-archive.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="..\libgamegraphics\git\tests\test-filter.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\libgamegraphics\git\tests\test-img.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\libgamegraphics\git\tests\test-img-defines.hpp">
+    <ClInclude Include="..\libgamegraphics\git\tests\test-image.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\libgamegraphics\git\tests\tests.hpp">
@@ -104,11 +179,5 @@
     <ClInclude Include="..\libgamegraphics\git\tests\test-tileset.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\libgamegraphics\git\tests\test-tileset_new.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="packages.config" />
   </ItemGroup>
 </Project>
