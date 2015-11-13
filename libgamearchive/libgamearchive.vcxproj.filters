@@ -174,9 +174,6 @@
     <ClCompile Include="git\src\fmt-dat-riptide.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="git\src\fmt-mni-czone.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="git\src\stream_archfile.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -348,9 +345,6 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="git\src\fmt-dat-riptide.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="git\src\fmt-mni-czone.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="git\include\camoto\gamearchive\archive-fat.hpp">

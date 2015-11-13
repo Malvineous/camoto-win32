@@ -192,7 +192,6 @@
     <ClCompile Include="git\src\fmt-hog-descent.cpp" />
     <ClCompile Include="git\src\fmt-lbr-vinyl.cpp" />
     <ClCompile Include="git\src\fmt-lib-mythos.cpp" />
-    <ClCompile Include="git\src\fmt-mni-czone.cpp" />
     <ClCompile Include="git\src\fmt-pcxlib.cpp" />
     <ClCompile Include="git\src\fmt-pod-tv.cpp" />
     <ClCompile Include="git\src\fmt-res-stellar7.cpp" />
@@ -256,7 +255,6 @@
     <ClInclude Include="git\src\fmt-hog-descent.hpp" />
     <ClInclude Include="git\src\fmt-lbr-vinyl.hpp" />
     <ClInclude Include="git\src\fmt-lib-mythos.hpp" />
-    <ClInclude Include="git\src\fmt-mni-czone.hpp" />
     <ClInclude Include="git\src\fmt-pcxlib.hpp" />
     <ClInclude Include="git\src\fmt-pod-tv.hpp" />
     <ClInclude Include="git\src\fmt-res-stellar7.hpp" />
