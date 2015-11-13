@@ -228,6 +228,7 @@
     <ClInclude Include="git\src\prefsdlg.hpp" />
     <ClInclude Include="git\src\project.hpp" />
     <ClInclude Include="git\src\studio.hpp" />
+    <ClInclude Include="resource.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -545,6 +546,7 @@
     <Image Include="git\data\maps\unknown-tile.png">
       <DeploymentContent>true</DeploymentContent>
     </Image>
+    <Image Include="studio.ico" />
   </ItemGroup>
   <ItemGroup>
     <Xml Include="git\data\games\captain-comic.xml">
@@ -640,6 +642,9 @@
     <Xml Include="git\data\games\zone66.xml">
       <DeploymentContent>true</DeploymentContent>
     </Xml>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="camoto-studio.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
