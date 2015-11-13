@@ -184,6 +184,12 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="git\include\camoto\gamemaps.hpp" />
+    <ClInclude Include="git\include\camoto\gamemaps\manager.hpp" />
+    <ClInclude Include="git\include\camoto\gamemaps\map.hpp" />
+    <ClInclude Include="git\include\camoto\gamemaps\map2d.hpp" />
+    <ClInclude Include="git\include\camoto\gamemaps\maptype.hpp" />
+    <ClInclude Include="git\include\camoto\gamemaps\util.hpp" />
     <ClInclude Include="git\src\fmt-map-bash.hpp" />
     <ClInclude Include="git\src\fmt-map-ccaves-mapping.hpp" />
     <ClInclude Include="git\src\fmt-map-ccaves.hpp" />

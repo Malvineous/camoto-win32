@@ -152,5 +152,23 @@
     <ClInclude Include="git\src\map-core.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="git\include\camoto\gamemaps.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="git\include\camoto\gamemaps\manager.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="git\include\camoto\gamemaps\map.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="git\include\camoto\gamemaps\map2d.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="git\include\camoto\gamemaps\maptype.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="git\include\camoto\gamemaps\util.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
