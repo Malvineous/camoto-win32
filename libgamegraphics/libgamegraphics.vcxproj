@@ -201,7 +201,6 @@
     <ClInclude Include="git\src\pal-vga-raw.hpp" />
     <ClInclude Include="git\src\tileset-fat-fixed_tile_size.hpp" />
     <ClInclude Include="git\src\tileset-fat.hpp" />
-    <ClInclude Include="git\src\tls-actrinfo.hpp" />
     <ClInclude Include="git\src\tls-bash-sprite.hpp" />
     <ClInclude Include="git\src\tls-bash.hpp" />
     <ClInclude Include="git\src\tls-catacomb.hpp" />
@@ -209,6 +208,7 @@
     <ClInclude Include="git\src\tls-ccaves-sub.hpp" />
     <ClInclude Include="git\src\tls-ccomic.hpp" />
     <ClInclude Include="git\src\tls-ccomic2.hpp" />
+    <ClInclude Include="git\src\tls-cosmo-actrinfo.hpp" />
     <ClInclude Include="git\src\tls-cosmo.hpp" />
     <ClInclude Include="git\src\tls-ddave.hpp" />
     <ClInclude Include="git\src\tls-ega-apogee.hpp" />
@@ -218,6 +218,7 @@
     <ClInclude Include="git\src\tls-harry-ico.hpp" />
     <ClInclude Include="git\src\tls-hocus.hpp" />
     <ClInclude Include="git\src\tls-jill.hpp" />
+    <ClInclude Include="git\src\tls-nukem2-czone.hpp" />
     <ClInclude Include="git\src\tls-sagent.hpp" />
     <ClInclude Include="git\src\tls-stryker.hpp" />
     <ClInclude Include="git\src\tls-vinyl.hpp" />
@@ -264,7 +265,6 @@
     <ClCompile Include="git\src\tileset-fat.cpp" />
     <ClCompile Include="git\src\tileset-from_image_list.cpp" />
     <ClCompile Include="git\src\tileset.cpp" />
-    <ClCompile Include="git\src\tls-actrinfo.cpp" />
     <ClCompile Include="git\src\tls-bash-sprite.cpp" />
     <ClCompile Include="git\src\tls-bash.cpp" />
     <ClCompile Include="git\src\tls-catacomb.cpp" />
@@ -272,6 +272,7 @@
     <ClCompile Include="git\src\tls-ccaves-sub.cpp" />
     <ClCompile Include="git\src\tls-ccomic.cpp" />
     <ClCompile Include="git\src\tls-ccomic2.cpp" />
+    <ClCompile Include="git\src\tls-cosmo-actrinfo.cpp" />
     <ClCompile Include="git\src\tls-cosmo.cpp" />
     <ClCompile Include="git\src\tls-ddave.cpp" />
     <ClCompile Include="git\src\tls-ega-apogee.cpp" />
@@ -281,6 +282,7 @@
     <ClCompile Include="git\src\tls-harry-ico.cpp" />
     <ClCompile Include="git\src\tls-hocus.cpp" />
     <ClCompile Include="git\src\tls-jill.cpp" />
+    <ClCompile Include="git\src\tls-nukem2-czone.cpp" />
     <ClCompile Include="git\src\tls-sagent.cpp" />
     <ClCompile Include="git\src\tls-stryker.cpp" />
     <ClCompile Include="git\src\tls-vinyl.cpp" />
