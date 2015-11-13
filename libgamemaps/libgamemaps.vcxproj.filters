@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="git\src\base-maptype.cpp">
+    <ClCompile Include="git\src\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="git\src\fmt-map-bash.cpp">
@@ -34,6 +34,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="git\src\fmt-map-ddave.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="git\src\fmt-map-duke1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="git\src\fmt-map-got.cpp">
@@ -69,26 +72,20 @@
     <ClCompile Include="git\src\fmt-map-zone66.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="git\src\main.cpp">
+    <ClCompile Include="git\src\map2d-core.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="git\src\map2d_layer.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="git\src\map2d-generic.cpp">
+    <ClCompile Include="git\src\map-core.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="git\src\util.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="git\src\fmt-map-duke1.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="git\src\base-maptype.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
     <ClInclude Include="git\src\fmt-map-bash.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -108,6 +105,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="git\src\fmt-map-ddave.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="git\src\fmt-map-duke1.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="git\src\fmt-map-got.hpp">
@@ -146,35 +146,11 @@
     <ClInclude Include="git\src\fmt-map-zone66.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="git\src\map2d-generic.hpp">
+    <ClInclude Include="git\src\map2d-core.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="git\src\map-generic.hpp">
+    <ClInclude Include="git\src\map-core.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="git\include\camoto\gamemaps.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="git\include\camoto\gamemaps\manager.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="git\include\camoto\gamemaps\map.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="git\include\camoto\gamemaps\map2d.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="git\include\camoto\gamemaps\maptype.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="git\include\camoto\gamemaps\util.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="git\src\fmt-map-duke1.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="packages.config" />
   </ItemGroup>
 </Project>

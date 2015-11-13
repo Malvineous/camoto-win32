@@ -30,7 +30,13 @@
     <ClCompile Include="..\libgamemaps\git\tests\test-map-cosmo.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\libgamemaps\git\tests\test-map-darkages.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="..\libgamemaps\git\tests\test-map-ddave.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libgamemaps\git\tests\test-map-duke1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\libgamemaps\git\tests\test-map-got.cpp">
@@ -39,7 +45,16 @@
     <ClCompile Include="..\libgamemaps\git\tests\test-map-harry.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\libgamemaps\git\tests\test-map-hocus.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libgamemaps\git\tests\test-map-jill.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="..\libgamemaps\git\tests\test-map-nukem2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libgamemaps\git\tests\test-map-rockford.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\libgamemaps\git\tests\test-map-sagent.cpp">

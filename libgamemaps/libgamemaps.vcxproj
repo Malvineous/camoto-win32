@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
       <Configuration>Debug</Configuration>
@@ -27,26 +27,26 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v120_xp</PlatformToolset>
+    <PlatformToolset>v140_xp</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v120_xp</PlatformToolset>
+    <PlatformToolset>v140_xp</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v120_xp</PlatformToolset>
+    <PlatformToolset>v140_xp</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v120_xp</PlatformToolset>
+    <PlatformToolset>v140_xp</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
@@ -90,7 +90,7 @@
       </PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;LIBGAMEMAPS_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>CAMOTO_GAMEMAPS_API=DLL_EXPORT;WIN32;_DEBUG;_WINDOWS;_USRDLL;LIBGAMEMAPS_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
     </ClCompile>
     <Link>
@@ -149,7 +149,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="git\src\base-maptype.cpp" />
     <ClCompile Include="git\src\fmt-map-bash.cpp" />
     <ClCompile Include="git\src\fmt-map-ccaves.cpp" />
     <ClCompile Include="git\src\fmt-map-ccomic.cpp" />
@@ -169,18 +168,22 @@
     <ClCompile Include="git\src\fmt-map-xargon.cpp" />
     <ClCompile Include="git\src\fmt-map-zone66.cpp" />
     <ClCompile Include="git\src\main.cpp" />
-    <ClCompile Include="git\src\map2d-generic.cpp" />
-    <ClCompile Include="git\src\map2d_layer.cpp" />
+    <ClCompile Include="git\src\map-core.cpp" />
+    <ClCompile Include="git\src\map2d-core.cpp" />
     <ClCompile Include="git\src\util.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="git\include\camoto\gamemaps.hpp" />
-    <ClInclude Include="git\include\camoto\gamemaps\manager.hpp" />
-    <ClInclude Include="git\include\camoto\gamemaps\map.hpp" />
-    <ClInclude Include="git\include\camoto\gamemaps\map2d.hpp" />
-    <ClInclude Include="git\include\camoto\gamemaps\maptype.hpp" />
-    <ClInclude Include="git\include\camoto\gamemaps\util.hpp" />
-    <ClInclude Include="git\src\base-maptype.hpp" />
+    <ProjectReference Include="..\libgamecommon\libgamecommon.vcxproj">
+      <Project>{147c5df4-742b-4c71-93ff-b5ce8fdb2c34}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\libgamegraphics\libgamegraphics.vcxproj">
+      <Project>{df52ae8d-f363-4b71-9b71-4031026ac97c}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
     <ClInclude Include="git\src\fmt-map-bash.hpp" />
     <ClInclude Include="git\src\fmt-map-ccaves-mapping.hpp" />
     <ClInclude Include="git\src\fmt-map-ccaves.hpp" />
@@ -201,28 +204,17 @@
     <ClInclude Include="git\src\fmt-map-wordresc.hpp" />
     <ClInclude Include="git\src\fmt-map-xargon.hpp" />
     <ClInclude Include="git\src\fmt-map-zone66.hpp" />
-    <ClInclude Include="git\src\map-generic.hpp" />
-    <ClInclude Include="git\src\map2d-generic.hpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\libgamecommon\libgamecommon.vcxproj">
-      <Project>{147c5df4-742b-4c71-93ff-b5ce8fdb2c34}</Project>
-    </ProjectReference>
-    <ProjectReference Include="..\libgamegraphics\libgamegraphics.vcxproj">
-      <Project>{df52ae8d-f363-4b71-9b71-4031026ac97c}</Project>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="packages.config" />
+    <ClInclude Include="git\src\map-core.hpp" />
+    <ClInclude Include="git\src\map2d-core.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
-    <Import Project="..\packages\boost.1.57.0.0\build\native\boost.targets" Condition="Exists('..\packages\boost.1.57.0.0\build\native\boost.targets')" />
+    <Import Project="..\packages\boost.1.59.0.0\build\native\boost.targets" Condition="Exists('..\packages\boost.1.59.0.0\build\native\boost.targets')" />
   </ImportGroup>
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
       <ErrorText>This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
     </PropertyGroup>
-    <Error Condition="!Exists('..\packages\boost.1.57.0.0\build\native\boost.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\boost.1.57.0.0\build\native\boost.targets'))" />
+    <Error Condition="!Exists('..\packages\boost.1.59.0.0\build\native\boost.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\boost.1.59.0.0\build\native\boost.targets'))" />
   </Target>
 </Project>
