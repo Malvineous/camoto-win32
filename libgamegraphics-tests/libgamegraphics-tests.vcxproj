@@ -192,7 +192,6 @@
     <ClCompile Include="..\libgamegraphics\git\tests\test-subimage.cpp" />
     <ClCompile Include="..\libgamegraphics\git\tests\test-tileset-from_image_list.cpp" />
     <ClCompile Include="..\libgamegraphics\git\tests\test-tileset.cpp" />
-    <ClCompile Include="..\libgamegraphics\git\tests\test-tls-actrinfo.cpp" />
     <ClCompile Include="..\libgamegraphics\git\tests\test-tls-bash-sprite.cpp" />
     <ClCompile Include="..\libgamegraphics\git\tests\test-tls-bash.cpp" />
     <ClCompile Include="..\libgamegraphics\git\tests\test-tls-catacomb.cpp" />
@@ -200,6 +199,7 @@
     <ClCompile Include="..\libgamegraphics\git\tests\test-tls-ccaves-sub.cpp" />
     <ClCompile Include="..\libgamegraphics\git\tests\test-tls-ccomic.cpp" />
     <ClCompile Include="..\libgamegraphics\git\tests\test-tls-ccomic2.cpp" />
+    <ClCompile Include="..\libgamegraphics\git\tests\test-tls-cosmo-actrinfo.cpp" />
     <ClCompile Include="..\libgamegraphics\git\tests\test-tls-cosmo.cpp" />
     <ClCompile Include="..\libgamegraphics\git\tests\test-tls-ddave.cpp" />
     <ClCompile Include="..\libgamegraphics\git\tests\test-tls-got.cpp" />

@@ -108,9 +108,6 @@
     <ClCompile Include="..\libgamegraphics\git\tests\test-tileset-from_image_list.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\libgamegraphics\git\tests\test-tls-actrinfo.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\libgamegraphics\git\tests\test-tls-bash.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -160,6 +157,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\libgamegraphics\git\tests\test-tls-zone66-map.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libgamegraphics\git\tests\test-tls-cosmo-actrinfo.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
